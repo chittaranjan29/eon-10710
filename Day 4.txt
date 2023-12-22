@@ -1,0 +1,68 @@
+**********************
+Flow Control
+**********************
+Day - 4
+Agenda:
+
+Flow control Statements:
+i)Decision making statements
+ a)if statements(if, if-else, if-elseif-else)
+ b)switch case statement
+
+ii)Loop Statements: Loops are blocks of code that gets executed repeatedly until and unleass a condition 
+evalutes to false. Once the condition become false the loop gets terminated.
+  
+ a)do while loop
+  syntax:
+
+   do
+   {
+    stamement 1;
+    stamement 2;
+    .
+    .
+   }
+   while(condition);
+
+  
+   
+  
+ b)for loop
+ c)while loop
+
+
+1, 2, 3, ....10
+10,9,8,7,6,5,4,3,2,1
+
+1,4,9,16,25,36,49,64,81,100
+
+ELAT assessment + Mock interview
+Training completion(complete slides)
+Feedback and Referrel
+My profile, My resume, My document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

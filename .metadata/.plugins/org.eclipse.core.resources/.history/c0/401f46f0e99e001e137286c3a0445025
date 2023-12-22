@@ -1,0 +1,66 @@
+package com.test;
+
+public class OperatorsExample {
+
+	public static void main(String[] args) {
+		
+		int a=10,b=20;
+		boolean status=true;
+		
+		//Arithmetic operator
+		
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		
+		
+		//Relational operator - boolean
+		System.out.println(a>b);
+		System.out.println(a<b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a==b);
+		System.out.println(a!=b);
+		
+		//Logical operators
+		
+		System.out.println(a>b && a>10);//true
+		System.out.println(a>b || a>10);
+		System.out.println(!(a>b));
+		
+		//Assignment operators
+		a=20;
+		System.out.println(a);
+		a+=10; //a=a+10
+		System.out.println(a);
+		a/=2;  //a=a/2
+		System.out.println(a);
+		
+		
+		//Shift operator
+		
+		System.out.println(5>>2);// 5/4=1
+		System.out.println(2<<3);// 2*8=16
+		
+		//Bitwise operator
+		System.out.println(a>b & a>10);
+		System.out.println(a>b | a>10);
+		
+		//Ternary operator
+		 status=(a>b)?true:false;
+		 System.out.println(status);
+		 
+		 
+		 //unary
+		 System.out.println(a++);  //a++  a=a+1
+		 System.out.println(a--);  //a--  a=a-1
+		 System.out.println(++a);
+		 System.out.println(--a);
+		 
+		 
+		
+	}
+
+}

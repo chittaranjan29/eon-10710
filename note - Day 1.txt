@@ -1,0 +1,72 @@
+Course Content:
+Java Full Stack:
+i)Java 8,11,17
+ii)HTML 5
+iii)CSS 3
+iv)Bootstrap
+v)React/Angular
+vi)MySQL/MongoDB
+vii)Hibernate
+viii)Spring
+ix)Spring Boot(REST, JPA, Security etc)
+x)Data Sturucture(Array, Stack, Queue, Tree)
+xi)Unit testing with Junit5 and Mockito
+xii)Devops tools(Maven, Git, Docker, Jenkins etc)
+
+Aptitude and Communication skills modules
+
+Project:
+i)Mini Project(Core Java + Mysql)
+ii)Full Stack Final project(Spring boot + Mysql/Mongodb + react/angular) - 35% - score will be added in the final scorecard
+
+Assesments:(72 hours)
+i)ELAT(Entry level assesment + Mock interview) - At 0% course completion
+ii)MLAT(Mid level assessment + Mock interview) - At 50% course completion(Nilesh Sir) - score will be added in the final scorecard
+iii)EXLAT(Exit level asessment + Mock interview + project presentation) - At 100% course completion(Nilesh Sir) - score will be added in the final scorecard
+
+Domain assessment - MCQ questions
+Coding assessment - Do-select platform(Time Duration constraints, Memrory contarints, Compile time constraints)
+15
+Proctored Examination
+
+i)keep the camera on
+ii)Can't open any other tab/software
+iii)Can't move from the chair
+
+HackerRank
+
+Learners portal:
+
+i)Modules - a)Trainer module b)Student module
+
+
+i)JDK - Java Development Kit
+ii)Eclipse IDE 
+iii)Set Java Path in System Environment
+
+java -version
+
+
+i)HackerRank
+ii)HackerEarth
+iii)linkedIn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

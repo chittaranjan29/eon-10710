@@ -1,0 +1,23 @@
+package com.test;
+
+import java.util.Scanner;
+
+public class VariableInitialization {
+
+	public static void main(String[] args) {
+		
+		Scanner  scanner=new Scanner(System.in);
+		int v1,v2;
+		//Runtime initialization of the variables
+		System.out.println("Enter the value of v1:");
+		v1=scanner.nextInt();
+		
+		
+		System.out.println("Enter the value of v2:");
+		v2=scanner.nextInt();
+		
+		System.out.println("Result="+(v1+v2));
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.test;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		         //0   1  2 3  4  5 - indices 
+		int ar[]= {10,56,78,90,35,55};
+		
+		System.out.println(ar[4]);
+		System.out.println(ar[5]);
+		System.out.println(ar[0]);
+		
+		
+		
+		
+
+	}
+
+}

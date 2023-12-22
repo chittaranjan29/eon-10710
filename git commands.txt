@@ -1,0 +1,8 @@
+1.  git config --global user.name "your name"
+2.  git config --global user.email "your@mail.com"
+3.  git init
+4.  git add .
+5.  git status
+6.  git commit -m "commit message"
+7.  git remote add origin https://github.com/chitta2015/fgfd.git
+8.  git push origin master 

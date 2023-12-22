@@ -1,0 +1,25 @@
+package com.test;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		         //0   1  2 3  4  5 - indices 
+		int ar[]= {10,56,78,90,35,55};//static array initialization
+		
+		int br[]=new int[10];//Array declaration
+		
+		System.out.println(ar[4]);
+		System.out.println(ar[5]);
+		System.out.println(ar[0]);
+		System.out.println(ar[6]);
+		char cr[]= {'a','b','c','d','e'};
+		float dr[]= {10.5f,9.5f,7.2f,6.3f};
+		
+		
+		
+		
+		
+
+	}
+
+}

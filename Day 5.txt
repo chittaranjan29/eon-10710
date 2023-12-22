@@ -1,0 +1,76 @@
+*****************
+OOPs Concept
+*****************
+Day 5:
+
+Agenda:
+
+i)Nested loop,switch(menu driven)
+ii)Jump statements(break, continue)
+iii)OOPs concept(Class, object, methods, constructors, this etc)
+
+Class: It is a template or blueprint of the object.
+Object: Object is an entity that has state and behaviour.
+
+
+Employee - id, name, designation, department, salary etc - states
+           signin, signout, applyLeaves, draw salary - actions/behaviours
+
+
+OOP: 
+class - instance variables - represents states of the object
+        instance method    - represents the action/behaviours of the object 
+
+Constructor:
+It is a block of code which is called when the object/instance of the class is created.
+
+i)Constructor name is always the same as the class name.
+ii)Contructor may or may not have parameters/arguments.
+iii)Constructor can not have any return type.
+iv)Constructor can have access specifier like public, private or protected.
+v)Every class must have atleast one constructor either declared explicitly or implicitly. 
+
+
+Purpose:
+i)It helps us to create and initialize objects/instances of the class. 
+
+Types of constructor:
+i) Default: A constructor which has empty arguments/parameters is called default constructor.
+   purpose: Creates an empty object of the class.
+
+ii)Parameterized: A constructor which accepts arguments or parameters is called parameterized constructor.
+   purpose: Creates an empty object of the class and then initializes the properties of the class.
+
+Constructor overloading:
+Having more than one constructor is a class is called construtor overloading.
+
+class Employee
+{
+  
+
+}
+
+for()
+{
+  condition
+   continue;
+   st1;
+   st2;
+
+}
+
+
+
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5 
+
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5

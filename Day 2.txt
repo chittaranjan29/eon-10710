@@ -1,0 +1,86 @@
+Day 2:
+*******************
+Java Introduction
+*******************
+
+i)It is an object oriented, class based, secured, robust and general purpose programming language.
+ii)Oak - 1990 - oak - James Gosling
+  1995 - Java - 1.0 
+  Applets and Web browser 
+  Platform independent
+
+C, C++, Basic, Fortrain etc - POP - Produre Oriented Programming - Platform Dependency, Data security
+
+POP Vs OOP 
+
+JDK : Java Development Kit(JRE + JVM + Runtime libraries)
+JRE : Java Runtime Environment
+JVM : Java Virtual Machine
+
+Jar - Java classes, interfaces - Java Archive
+
+
+Test.java  -> Test.class(Byte code)
+
+javac Test.java           -> Test.class
+
+
+Source code -> Byte code -> Native machine code
+
+java Test
+
+i)What is JDK?
+ii)What is JRE?
+iii)What is JVM?
+iv)How JVM makes the Java code platform independent?
+v)What are java development tools?
+vi)What is the use of javac and java tools?
+
+java, javac etc
+ 
+Features Of Java:
+i)Secured(Data Hiding through Abstraction, Access specifiers- public, private, protected, default)
+ii)Robust(Memory management, Garbage collection, Exception Handling )
+iii)Portable
+iv)Platform independent
+v)Compiled and interpreted
+vi)Multithreaded
+vii)Distributed(RMI and EJB)
+
+Architecture of Java:
+
+i)Class Loader: Class loader is a subsystem of JVM. It is used to load the class files.
+Whenever we run a java program , class loader loads it first.
+
+ii)Class method area: It is one of the data area in JVM, in which class data will be stored.
+Static variable, static blocks, static methods, instance methods are saved in this area.
+ 
+iii)Heap memory: It is loaded and initialized when JVM starts up. It may increase or decrease in size when 
+the application runs.
+
+iv)Stack memory: JVM stack also called thread stack. It is a data area in the JVM memory used to store variable 
+elements local variables, partial results, data for calling methods and returns.
+ 
+v)Native Stack: It subsumes all the native methods used in your application.
+
+vi)Execution Engine
+ a)JIT compiler: Just In Time compiler is a part of the runtime environment. It helps in improving the performance 
+ of the application by compiling bytecode into machine code at runtime.
+
+ b)Garbage Collector: It tracks each and every object present in the heap memory and removes the unwanted ones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

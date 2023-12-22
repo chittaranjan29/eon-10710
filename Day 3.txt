@@ -1,0 +1,107 @@
+****************************************
+Java Data Types, operators, variables
+****************************************
+Day -3
+
+Data Types - 
+i)Primitive - int, float, double, char etc  
+ii)Non-primitive - class, function, array 
+Operators
+Variables
+
+Type Casting:
+Converting a value of one data type to another is called type casting.
+i) Implicit: Data value is converted by the compiler. 
+ii)Explicit: Programmer or developer can convert the data type form one to another. 
+
+float a=12.78f;
+int b=a; //12
+
+float a=12.78;
+int b=(int)a; //12
+
+
+Class Student - ob1, ob2
+
+AutoBoxing: Converting a primitive data type into its equivalent object type is called Autoboxing.
+Unboxing:Converting an object into its equivalent primitive type is called Unboxing.
+
+Long, Boolean, Float, Double - Wrapper classes 
+
+
+Operators:Operators are symbols in Java used to perform specific operation.
+
+Operands
+
+a+b   
++   - operator 
+a,b - operands
+
+
+Operators:
+
+Type of operation Wise:
+i)Arithmatic ii)Relational iii)Logical iv)Bitwise v)Shift vi)Assignment
+
+a+b, a-b, a*b, a/b, a%b
+a>b, a<b, a>=b, b<=c
+&&, ||, !
+xor,
+>>,<<
+
+Number of operands wise:
+i)Unary - require only 1 operand (a++,--a,++b,b--)
+ii)Binary-require atleast two operands (a+b, a*b)
+iii)Ternary/Conditional-require atleast three operands
+
+boolean status=(a>b)?true:false;
+
+Array: It is a group of similar data values stored in contiguous memory location.
+i)It supports random access of the elements.
+ii)The element positions are denoted using  numbers called indices. Indices starts from 0 and goes up to length -1.
+iii)Array has fixed size.The array size can not be changed.
+iv)Array does not support mixed data types.
+v)It the bound of array index is crossed then compiler will throw Runtime error(ArrayIndexOutOfBoundsException).
+
+
+[12,67,55,78] - Integer Array
+[23.8, 89.5, 78., 9.3] - Float array
+['g','*','T','I'] - Character Array
+
+
+Math expression - Java Expresion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
