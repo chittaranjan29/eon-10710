@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.flow.control.Employee"/>
     <fullyQualifiedTypeName name="com.flow.control.Circle"/>
+    <fullyQualifiedTypeName name="com.test.Student"/>
+    <fullyQualifiedTypeName name="com.test.StaticKeywordExample"/>
+    <fullyQualifiedTypeName name="com.test.Outer.Inner"/>
 </qualifiedTypeNameHistroy>

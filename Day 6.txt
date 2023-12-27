@@ -1,0 +1,73 @@
+****************************
+OOPs Concepts
+****************************
+Day : 6
+
+Agenda:
+i)this keyword
+ii)static keyword
+iii)String class and its methods
+
+
+This:It is a refrence variable and referes to the current object/instance of the class.
+
+i)this can refer current class instance variables.
+ii)this can be used to call current class methods.
+iii)this can be used to invoke current class constructor.
+iv)It can be passed as argument in the method call.
+
+
+static: The main purpose of static keyword is memory management. We can use static keyword for better memory utilization.
+It belongs to the class rather than object. 
+
+
+A variable which is declared with the static keyword is called static variable. It belong to the class rather than object.
+
+A method which is declared with the static keyword is called static method. Inside a static method only static
+variables can be accessed.
+
+A block declared with the static keyword is called static block.
+
+A static class is a class declared inside another class, is called a static nested class.
+
+
+
+
+Uses:
+i)To declare static variable.
+ii)To declare static block.
+iii)To declare static method.
+iv)To declare nested class.
+
+
+String: It is non-primitive data type. It is an object that stores a sequence of alphanumeric characters. 
+
+String is a class from which objects are created.
+
+Ways of declaring String:
+i)Using string literal.  ex: String st="Year 2023!!";
+ii)Using new keyword.    ex: String st=new String("Hello World!!");
+
+
+i)Strings are immutable.(Non modifiable)
+
+Interview Questions:
+i)Whis is the use of this keyword?
+ii)What is static keyword in Java?
+iii)What is static method, variable, class and block? 
+iv)Why String are immutable in Java?
+v)What is string constant pool? How JVM manages String constants in the memory?
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

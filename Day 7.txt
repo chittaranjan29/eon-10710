@@ -1,0 +1,53 @@
+**********************************
+String Programming
+**********************************
+
+Day 7: 12/27/23
+
+Agenda:
+i)All the string methods
+ii)StringBuffer and StringBuilder
+iii)Solve Problem on String
+
+
+Recap:
+i)this keyword.
+(object of the current class, 
+invoke constructor,
+invoke methods, 
+access data membrers, 
+pass this keywors as arguments to methods)
+
+ii)Static keyword.(Memory Management)
+
+static
+{
+
+}
+
+iii)Introduction of String:
+
+ a)Constant pool (created with the string literal) String st="Java";  [reusable]
+ b)Heap memory (created with new keyword)String st=new String("Java");
+
+ st="Java Programming";
+ String st1="Java";
+
+
+String - any object created with String class are by default immutable.
+StringBuffer, StringBuilder - Any object created with these classes are mutable by default.
+
+WAP to print number of alphabets, digits, special characters and spaces in a given string value.
+
+Sample Input: Happy New Year 2024!!
+Sample Output: Alphabets : 12
+	       Digits : 4
+	       Special: 2
+ 	       Spaces: 4						
+	
+
+
+ 
+
+
+
