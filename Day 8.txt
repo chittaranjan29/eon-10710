@@ -1,0 +1,65 @@
+************************************
+Inheritance
+************************************
+Day 8: 28/12/23
+
+
+Agenda:
+i)What is inheritance?
+ It is one of the important feature of OOP.
+ The main purpose of inhertance is code reusability.
+  
+ Creating a class from an extending class is called inheritance.
+
+ A - (properties, methods) 
+
+ B - (properties+, methods+) 
+
+ B extends A
+ {
+
+ }
+
+ Employee class (properties, methods)
+
+ Regular(id, name, desig, salary)
+ Parttime(id, name, desig, salary)
+
+
+ii)Advantages of inheritance
+iii)Types of inheritance:
+
+OOPs : a)Sigle ii)Mulilevel iii)Hierarchical iv)Hybrid v)Mutiple
+
+vi)Why multiple inheritance is not supported in java
+vii)Overloading and Overriding
+
+Recap:
+i)length ii)charAt iii)contains iv)replace v)replaceAll vi)equals vii)isEmpty viii)isBlank
+ix)trim x)indexOf xi)toLowerCase xii)toUpperCase xiii)equalsIgnoreCase
+ 
+Mutable String & Immutable String
+
+String: immutable string
+StringBuffer | StringBuilder : mutable string
+
+
+super : It is a java reference variable which referes the immediate parent class instance.
+
+i)To refer immediate parent class instance variable.
+ii)To invoke immediate parent class method.
+iii)To invoke immediate parent class constructor. 
+
+
+Q:-> WAP to generate the reverse form of a given string.
+
+input: Java
+output: avaJ
+
+Q:-> WAP to check a string is palindrome or not.
+Q:-> WAP to print all the palindrome words present in a given string.
+
+Sample Imput: madam is going to the market.
+
+Profile, CV, referrals and feedback 
+
