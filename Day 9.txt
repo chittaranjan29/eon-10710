@@ -1,0 +1,69 @@
+*****************************
+Polymorphoism
+*****************************
+Day 9: 29/12/23
+
+Doubt clearing class: 9 am
+
+Agenda:
+i)What is polymorphism?
+  poly + morphs - Greek
+
+  many forms
+ii)Types of polymorphism
+ Runtime Polymorphism - Dynamic/late binding - Overriding
+ Compiletime Polymorphism - static/early binding - Overloading
+
+
+A class - ABC(method)  -  ob.test();
+  
+iii)Overloading and Overriding
+In a class, if we have same name methods with different number of aruments or different types
+of aruments it is called as oveloaded function. This is overloading in Java.
+
+It is a process in Java in which a function call to the overidden method is resolved at runtime.
+This type of polymorphilsm is called method overriding. 
+
+Addition - add(long , long), add(float,float), add(int , int, int), abc(float, float, float)
+
+
+ob.add(35,67);
+
+ob.add(35.8,67.5,90.23);
+
+P - public void test()
+C - public void test()
+Having a same signature methods in both parent and child class is called Overriding.
+
+ 
+iv)Rules of overloading and overiding
+ a) final method can not be overridden.
+ b) Static method can not be overridden.
+ c) Private method can not be overridden.
+ d) The overriding method must have the same return type or subtype.
+ 
+
+
+v)Problems
+
+
+Inheritance:Biological term.
+
+Class from a parent class.
+Code reusabilty.
+
+OOP : i)Multilevel ii)Hierarchical iii)Single iii)Multiple v)Hybrid
+Java:Ambiguity problem.
+
+Java the Complete Reference by Herbert Schildt (Author)
+
+
+
+
+
+
+
+
+
+
+
