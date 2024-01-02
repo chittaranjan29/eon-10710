@@ -1,0 +1,71 @@
+*********************
+Abstraction
+*********************
+Date: 2/1/24
+
+Agenda:
+i)What is abstraction?
+It is a machanism to hide the implementation details(Background details) of something and providing the 
+functionality to the user only.
+
+ii)Ways to achieve abstraction.
+  a)Using abstract class(0-100% of abstraction)
+  b)Using interface(100% of abstraction)
+
+
+iii)Abstract keyword: (class, method)
+
+iv)Abstract class: Any class that is declared with abstract keyword is called abstrct class.
+An abstract class can have abstract or non-abstract method.
+
+ a)An instance of the abstract class can not be created.
+ b)Abstract class can have constructor.
+ c)We can have abstract class without any abstract method.
+ d)static method is allowed inside the abstract class.
+ e)Abstract class can have non-abstract final method.
+ f)An abstract class can be extended to another abstract class.
+
+
+v)Interface.
+It is the blueprint of a class. To achieve abstraction interface can be created with abstract method.
+Abstract method in the interface have no body. Inteface can be implemented by class and can be extended 
+to another interface.
+  
+ a)All the methods with no body inside interface are abstract method by default.
+ b)Static methods are allowed.
+ c)Default method are allowed.(since Java 8) - Making the implemetation classes backword compitable after modfying the 
+ actual interface. 
+ d)private method are allowed.(since Java 9)
+ e)All the data members are final by default.
+
+
+Interface - implemented by class
+          - extended by interface 
+
+Multiple inheritance is not possible using class(using interface possible)
+
+interface A   interface B
+
+  class C implements A,B
+
+
+interface A   interface B
+ 
+      interface C
+
+  class D implements C
+
+Q:->Why multiple inheritance is not possible using class in Java?
+Q:->What is marker or tagged interface?
+An interface having zero members is called as tagged or marker interface.
+These interface are helpful to provide instructions to the JVM to carry out some important operations.
+
+ex: Clonable, Serializable, Remote etc.
+
+Q:-> What is a functional interface?
+An Interface with single abstract method is called Functional Interface.
+ex:Runnable, Comparable, ActionListener etc.
+
+vi)abstract class vs interface
+vii)How to achieve multiple inheritance using interface.
+
