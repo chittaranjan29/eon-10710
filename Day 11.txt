@@ -1,0 +1,77 @@
+*************************
+Thread Programming
+*************************
+Day 11: 3/1/24
+
+
+Agenda:
+i)Final keyword:(restrict the user)
+ a)Variable: It protect a variable from chaning the value.(Constant)
+ b)class: It protect a class from getting inherited/extended.(Not Inheritable)
+ c)method: It protect a method from getting overridden.(Can not override )
+
+ii)What is a thread?
+iii)What is a process?
+iv)Difference between Thread and Process.
+v)How to create thread in Java?
+ a)By Extending Thread class
+ b)By implementing Runnable interface
+vi)Thread Life cycle.
+
+Recap:
+i)Abstraction: a) Abstract class 
+               b)Interface(Java 8 - static & default method, Java 9 - private method)
+
+Interface A(test()) --  a1, a2, b1, b2,....
+
+Terminologies:
+Program:It is a set of instructions.Instrctions are in a sequence to generate the output from the program.
+
+Running program: It is a state of the prorgam. In this state all the instructions of the program are 
+being executed by the CPU.Once all the instructions are excuted it will get terminted by the os.
+ 
+CPU: Executes the program.
+
+process:Process is an instance of the running program. A process represtents any program to control the state of the 
+program.When the program is ended, the process associated with the program is killed by the OS.
+Every process consume resources. Resources includes CPU, memory, disk and network. 
+
+
+Resource:A resource is an entity representing System properties which is consumed by processes. 
+
+thread:A thread is a small sub-process of the main process. Generally, a thread is resposible to carry out a small unit of task 
+of the main process.
+
+Chrome App: process (listening music, downloading movie, booking movie tickets)
+            Sub-process(Thread)
+
+Multitasking:Doing more than one task is called Multitasking.
+ a)Process b)Thread
+
+MultiProcessing:Processing multiple processes at the same time by the CPU(OS) is called multiprocessing.
+MultiThreading: If multiple threads are running under a particulr process simultaneously it is called as Multithreading.
+
+
+Differences between process and thread:
+
+Thread Pool: It is a pool of threds waiting for arrival of new task. Once a task is arrived, OS will pick up a particular thread and will be assigned with the
+new task. Once the task is completed it will be available for the new task. These are reusable threads. 
+
+Thread Schedular: It is a component of Java that decides which thread to run and which thread to wait is called thread schedular
+in Java. It follows some algorithm to order of the task execution. 
+
+Algorithms:
+ a)First Come First Serve(FCFS)  
+ b)Time-slicing
+ c)Preemptive-priority scheduling
+
+
+p1 - 2ms
+
+
+p2 - 2ms            [CPU]
+
+
+p3 - 2ms
+
+
