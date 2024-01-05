@@ -1,0 +1,67 @@
+**************************
+Thread Programming
+**************************
+Day 12: 4/1/24
+
+Recap:
+i)thread ii)Program iii)Process(system,app) iv)Running program v)Resources vi)Multitasking vii)Create a thread
+
+Thread
+Runable - run()
+Agenda:
+i)Life cycle of a thread:
+ a)New
+ b)Active -   Runnable - thread is ready to run, just waiting for the cpu, 
+	      Running - the thread is in execution and cpu is execting the body of the thread
+ c)Blocked or Waiting - Whenever a thread is inactive for a span of time, then it is in blocked state or in the waiting state
+ f)timed-waiting - In this state the thread waits for a specified time duration. If the time is over then it is timeout.
+ g)Terminated - A terminated thred goes to the dead state which means that the is no more in the system.
+
+
+ii)Priority of a thread:
+ It is a numeric value that is associated  with every thread. It denotes the importance of the thread.
+ Priority value ranges between 1 to 10. 
+
+ 1 - Lowest Priority - LOW_PRIORITY
+ 5 - Normal/Default Priority - NORM_PRIORITY
+ 10 - Highest Priority - HIGH_PRIORITY
+
+t1 - 1   - 2ms
+t2 - 5  -  4ms
+t3 - 10 -  6ms
+getPriority()
+setPriority()
+
+
+
+
+iii)Thread pool:
+A pool consists of a fixed number of reusable threads available to complete tasks of the clients.
+Background: Server programs sucs as databases and web servers repeatedly executes requests from multiple clients and these
+are oriemted aronud processing a large number of short tasks.
+
+
+Numebr of request of the clients/end user = Number of threads  
+
+50 thouseds requests = 50 thousand threads are created to handle to the client requests - Thread cycle overhead
+server crashes/failed - due to the lack of resources - Resource thrashing.
+
+
+
+iv)Thread Group:
+ThreadGroup creates a group of threads. It is a very convinient way to manage groups of threads as a unit. 
+This is particularly very important in a situation in which you want to suspend or resume a number of related threads.
+   
+
+v)Deamon thread: It is a special type of thread which has the lowest priority among all the other threads.
+The life span of a deamon thread dependes on the mercy of the user thareds. As long as user threads are running, deamon thread will also
+be running in the system. Once user threads are completed JVM will terminate the deamon thread.
+The main purpose of a deamon thread is to provide services linke garbage collection, resource initialisation and close etc.
+
+
+Concurrency
+
+
+
+
+ 

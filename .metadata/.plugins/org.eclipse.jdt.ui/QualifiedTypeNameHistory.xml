@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="com.test.Outer.Inner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.test.B"/>
     <fullyQualifiedTypeName name="com.test.Designer"/>
     <fullyQualifiedTypeName name="com.test.Developer"/>
@@ -17,4 +16,24 @@
     <fullyQualifiedTypeName name="com.test.Tiger"/>
     <fullyQualifiedTypeName name="com.test.Addition"/>
     <fullyQualifiedTypeName name="com.test.Child"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.thread.java.SampleThread"/>
+    <fullyQualifiedTypeName name="com.thread.java.Mythread"/>
+    <fullyQualifiedTypeName name="com.thread.java.DemoTHread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.thread.java.TaskThread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.thread.java.NewThread"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

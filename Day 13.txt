@@ -1,0 +1,135 @@
+*************************
+Exception Handling
+*************************
+Day 13: 5/1/23
+
+Agenda:
+i)What is an error? types of error.
+
+=> Error is an event that happened during the compilation or execution of the program which cause an
+interruption in the execution.
+
+Compilation: Compilation is a process of checking the code against the rules and syntax of the programming
+laguage line by line by the compiler.
+Compiler reports all the syntax errors during the compilation process. These errors must be rectified to 
+run the program.
+
+ex: syntax error (; missing, {} not closed etc) 
+ 
+
+Types: 
+a)Compile time error:(syntax error) 
+The errors that occurred during the compilation of the program are called compile time errors.
+
+b)Runtime error:
+These errors ocurred during the execution of the program at the runtime which halt the execution flow of
+the program. When runtime errors happens application terminated and the remaining code of the program does
+not get executed.
+
+ex: Wrong data type, size of the data, network error, hardware failure etc.
+
+c)Logical error: These errors leads to wrong outcome from the program due to the wrong logical implementation
+in the program by the programmer/developer. An error will be considered as a logical error if the expected
+outcome differs from the actual output.
+
+
+ii)What is an exception? types of exception.
+Exceptions are runtime errors. It is an unwanted event that occurs during the exceution of the program at runtime
+and cause the ternimation of the program from further execution.
+
+Threre are three types of exceptions:
+
+a)Checked exception: These are called compile time exception beacause these exception must be handled at the compile time.
+Compiler reports the exception during the compilation.
+
+ex: IOException, InterruptedException, SQLException, FileNotFoundException etc.
+
+
+b)Unchecked exception: These exception are called runtime exception beacause these exceptions are occurred at run time during 
+the program excution. 
+
+ex: NullPointerException, ArithmeticException etc.
+ 
+c)Error: Those runtime errors which can not be handled are called errors. Generally, these are internal handware or network related 
+issues. As a project/developer these runtime errors can not be handled.
+
+ex: AssertionError, VirtualMemoryError, MemoryOverflowError, LinkageError etc.
+
+
+iii)Exception handling machanism:
+Exception handling is an important aspect of Application development. A good product should have exception handling
+machanism implemented in the code. If the exceptions of the applications are not handled in the right way then
+for every runtime error the entire application is going to be terminated. 
+
+
+iv)try..catch...finally block:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+try
+{
+ contains the code where exception might occur
+ (17/0) - ArithmaticException 
+
+}
+catchArithmaticException type)
+{
+ exception handling code goes here
+}
+
+catch(NullPointerException type)
+{
+ exception handling code goes here
+}
+
+catch(NullPointerException type)
+{
+ exception handling code goes here
+}
+finally
+{
+ remaining code that needs to be executed
+}
+
+Catch with multiple exception types:
+A catch block can handle and take action for more than one exception type.
+We can specificy exception types using a pipeline(|) operator.
+Catch block exception objects must not have a parent-child relationship.
+
+sysntax:
+
+ catch (NumberFormatException | NullPointerException e)
+ { //checked exception
+			
+  System.out.println(e.getMessage());
+ } 
+
+Try with resource:
+From Java 12 onwards we can declare a try block with resource closing statement.
+Resources declared with try block must implement closable interface.
+
+Syntex:
+
+try (BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(System.in));)
+{
+ 
+}
+
+v)throw keyword
+vi)throws keyword
+vii)custom exception
+
+Recap:
+i)Life cycle of a thread(New, Active(Runnable, Running), Inactive(block, waiting, timed waiting))
+ii)Thread pool.(Thread cycle overhaed, Resource thrashing)
+iii)Thread Group
+
