@@ -1,0 +1,72 @@
+**************************************
+Collection Framework
+**************************************
+Day:16 10/1/24
+
+
+Agenda:
+i)What is a collection?Types of collection.
+ii)Different interfaces and classes in the collection framework
+iii)List, Set, Queue, Map interfaces.
+iv)Implementation classes of the List interface.
+v)ArrayList, LinkedList, Stack, Vector
+
+Recap:
+Thread Safety:
+i)Synchronization keyword(object, class)
+ii)Atomic variable
+iii)Volatile keyword
+
+collection: It is a group of similar type of objects that helps to magange the objects very easily and efficiently.
+
+collection of integers
+i)It was introduced in Java 1.2 version.
+ii)Before java 1.2 few classes were there to manage objects in Java. These classes are Stack, Vector, HashTable etc.
+These classes are called legacy classess.
+
+Iterable -> COllection -> List, Queue, Set 
+List ->ArrayList, LinkedList,Stack, Vector
+Queue -> PriorityQueue----DeQueue ->  ArrayDeque
+Set ->HashSet, LinkedHashSet SortedSet -> TreeSet
+
+Map -> HashTable, HashMap, LinkedHashMap SortedMap -> TreeMap
+
+
+List Interface:
+This is the child interface of Collection interface. It is used to manage list type of ordered objects.
+It has three implementation classes.(ArrayList, Stack, Vector)
+
+ ArrayList:
+ i)It is present in java.util package.
+ ii)It provides us a dynamic array.(Growable array - size can be increased or decreased) 
+ iii)It is slower than the normal standard array.
+
+ Stack:
+ i)It a legacy class now compitable with collection framework.
+ ii)Internally it uses a stack data structure.(based on LIFO)
+ iii)Main operations are push, pop and peek.
+ iv)It is a subclass of Vector.
+
+ Vector:
+ i)Internally it used a dynamic array.
+ ii)It is a legacy class.
+ iii)It is synchronized in nature.(Thread safe)
+ iv)Slow operation. 
+
+ LinkedList:
+ i)Internally it uses a double linkedlist data structure.
+ ii)Size is not defined at the time of declaration.
+ iii)It faster as bit shifting is not required.
+ 
+  
+
+
+
+
+
+
+
+
+
+
+ 

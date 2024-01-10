@@ -1,0 +1,64 @@
+*********************************
+Synchronization
+*********************************
+Date: 9/1/24 (Day 15)
+
+
+Agenda:
+i)Block level synchronization:
+Synchronized block can be used to perform synchronization on any specific resource of the method.
+
+  a)Synchronizaed block is used to lock an object of any shared resource.
+  b)The scope of the synchronized block is smaller than method. 
+  c)The system performance may degrade because of slower working of synchronized keyword.
+  d)Synchronized block is more efficient than synchronized method.	
+	
+ii)Static Synchronization
+
+iii)Atomic variable:
+Using atomic variable is another way to achieve thread safety in Java. When variables are shared by multiple threads,
+that automic variable ensures that thread don't crash into each other.
+
+ 
+iv)Volatile keyword:
+A volatile keyword is a field modifier that ensures that the object can be used by multiple threads at the same time
+without having any problem. Volatile is one good way of ensuring that that java program is thread safe.
+
+Resource r1 -> t1, t2
+
+i)Thread Interference
+ii)Data inconsistency
+
+
+i)Object level Synchronization - method and block level syschronization
+ii)Class level synchronization - static synchronization
+
+
+- Starvation
+test()         
+{
+.
+.
+.
+.
+.
+.
+.
+.
+
+}
+
+Collection Framework:
+
+
+
+
+
+
+
+
+
+
+
+
+

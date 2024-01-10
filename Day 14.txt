@@ -1,0 +1,92 @@
+**************************
+Exception Handling
+**************************
+Day 14: 8/1/24
+
+Agenda:
+i)Throw keyword:
+  Using the throw keyword we can throw any specific type of exception from any block or method
+  explicitly and can handled in catch block.
+
+ syntax: throw new NullPointerException("Null pointer exception occurred");
+
+ii)Throws keyword:
+   It is used to declare or report the checked exceptions that might occurr in a method of a  class.
+
+  Syntax:  void test()throws IOException,SQLException,FileNotFoundException 
+           {
+
+
+           }    
+iii)Custom Exception
+
+
+Banking app
+ErrorType
+388932978237 -> account details
+38739737932  -> Exception occured (SQLException)
+
+AccountIdNotFOundException
+AccountIdInvalidException
+
+
+Food Delevery app
+localtion - zipcode
+
+ZipCodeInvalidException
+BadZipCodeException
+OrderIdNotFoundException
+
+iv)Synchronization & thread safety:
+
+
+resources - reading file
+resources - writing file
+T1
+T2
+
+i)Thred interference
+	ex: print command given by two or nore users connect to the same network 
+ii)Data inconsistency problem
+	ex: double goldPricePerGram;
+
+        resource goldPricePerGram;(62 thousand)
+
+        12 am - add the product - thread1 was calculating the price of the jewellery. 
+	2 gram. jewellery price = goldPricePerGram * weight;= 1.24L 
+        
+	resource :goldPricePerGram;(63 thousand)
+	12 am - thread2 was updating the gold price for the day.
+	jewellery price = goldPricePerGram * weight;= 1.26L 
+
+A thread can access a shared resource mutually at a time. When one thread accessing the shared resource,
+the other thread should wait till the thread finish the task ans once the task is finised and released
+the resource the other thread will acquire the lock on the resource and access it. This feature is called
+Sysnchronization or thread safety. 
+
+resource : to access a resource the thread must acquire the lock on the resource.  
+Once the task is over the thread will release the lock so that other thread can acquire it.
+
+i)Synchronized method(object level locking)
+ii)Synchonized block(object level locking)
+iii)Static Synchronization (class level locking)
+
+v)Ways to make a method, object thread safe
+
+
+Interview Questions:
+i)What is the use of throw keyword?
+ii)What is the use of throws keyword?
+iii)What are the differences between threw and throws keyword.
+iv)What is thread safety and non-thread safely?
+v)What are the problems associated with non-thread safety?
+vi)What is the use of synchronized keyword?
+
+
+Recap:
+i)Exception, Error
+ii)Types of errors, Types of exceptions
+iii)try-catch-finally
+iv)try with resource
+v)try with multiple catch block
+vi)catch block with multiple exception types

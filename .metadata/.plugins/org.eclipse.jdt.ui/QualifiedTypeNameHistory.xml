@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="com.thread.java.SampleThread"/>
     <fullyQualifiedTypeName name="com.thread.java.Mythread"/>
     <fullyQualifiedTypeName name="com.thread.java.DemoTHread"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.thread.java.TaskThread"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
@@ -31,9 +30,21 @@
     <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.test.CheckVoter"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.test.InvalidAgeException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.synchronization.Test"/>
+    <fullyQualifiedTypeName name="com.synchronization.T1"/>
+    <fullyQualifiedTypeName name="com.synchronization.Table1"/>
+    <fullyQualifiedTypeName name="com.synchronization.Table2"/>
+    <fullyQualifiedTypeName name="com.synchronization.VolatileExample"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+    <fullyQualifiedTypeName name="com.synchronization.Counter"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>
