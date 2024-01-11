@@ -1,0 +1,72 @@
+**************************************
+Collection Framework(Set, Queue, Map)
+**************************************
+Day 16: 11/1/24
+
+Agenda:
+i)Set interface:
+It is a child interface of Collection interface.
+It is located at java.util package.
+It is an interface that implements the mathematical set.
+Doesn't allow any duplicate value.
+There are two interfaces that extends the set interface namely sortedSet and NavigableSet.
+Implementation classes are TreeSet, HashSet, LinkedHashSet.
+
+HashSet:
+i)It implements the Set interface 
+ii)Internally it uses hashtable for storage.(HashTable is a legacy class in Java)
+iii)HashSet stores the element by using a mechanism called Hashing.
+iv)HashSet contains only unique elements.
+v)It does not allow duplicate but allows null value.
+vi)It is non-synchronized.
+vii)It doesn't maintain the insertion order. Elements are positioned on the basis of there hashcode.
+viii)It is best suited for search operation.
+
+LinkedHashSet:
+i)It implements the set interface.
+ii)LinkedList amd Hashtable data structure is used internally.
+iii)Null values are allowed.
+iv)Duplicates are not allow.
+v)It maintains the insertion order. 
+vi)Non-synchronized.
+
+TreeSet:
+i)It extends AbstractSet class and implements NavigableSet interface.
+ii) Internally it uses a self balancing binary search tree.
+iii) In TreeSet the data retrieval speed is quite fast.
+iv)Null value not allowed.
+v)It maintains ascending order.
+vi)It is non-synchronized.
+
+Queue:
+i)Queue follows FIOF ordering for managing the elements.
+ii)elements can be added or deleted from the (Enqueue,Dequeue).
+iii)There are two pointer available in Queue namely front and rear,
+iv)Elements are added at the front and and deleted from the rear end.
+v)Implementation classes:PriorityQueue
+
+
+PriorityQueue:
+i)It processes the objects on the basis of priority value.
+ii)It follow FIFO pattern.
+
+
+Deque:
+i)It is double ended queue.
+ii)In double ended queue insertion and deletion of the elements can be dobe from either of the end.(rear and front)
+iii)It can be used as a stack or queue.
+iv)ArrayDeque implrmrnts the Deque interface.
+
+
+ii)Implementation classes of Set(HashSet, LinkedHashSet, TreeSet)
+iii)Queue interface
+iv)Implementation class of Queue is PriorityQueue. 
+v)Difference between iterator, listiterator and enumeration.
+
+
+Recap:
+Iterable
+Collection
+List, Set, Map, Queue
+ArrayList, Stack, Vector, LinkedList
+
