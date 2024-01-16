@@ -1,0 +1,136 @@
+********************************
+Collection Framework
+********************************
+Day 17: 12/1/24
+
+
+Agenda :
+i)Map interface
+ii)TreeMap, HashMap,Hashtable LinkedHashmap
+iii)HashTable class
+iv)Comparator & Comparable interface
+v)Sorting Collection
+
+
+
+i)Queue - PriorityQueue Deque -> ArrayDeque
+
+rear, front 
+
+ii)Set - TreeSet, HashSet, LinkedHashSet  
+
+HashTable: It is a legacy class introduced in Java 1 version.
+It implements hashtable which stores the elements in key-value pair.(keys are mapped to the values)
+This class extends Dictionary class and implements Map interface.
+
+ a) HashTable is an array of a list. Each list is called a bucket. The position of the  bucket is indentified by 
+  calling a hashcode() method. A hashtable contains values based on keys.
+ b)It allows only unique elements.
+ c)It doen't allow null value or key.
+ d)HashTable is thread-safe.
+
+
+What is Hashing?
+Hashing is a technique that enables us to store the data in the form of key-value pairs by modifying the original key
+using the hash function so that we  can use these modified keys as index of an array and store that associated data in
+the index location.
+
+"ram" => "937737378i83"
+
+key ->  hash function -> hash value
+
+What is Hashtable?
+A hashtable is an array that holds pointers to data that corresponds to a hashed key.
+
+
+
+example -
+
+(Key)         (value)
+Token Number  Name
+16            Virat
+1             Alex
+40            Ishika
+5             Sonu
+3             Mrinalini
+38            John 
+
+
+size = 10
+
+Hash(key)=key%size
+
+16%10=6
+1%10=1
+40%10=4
+5%10=5
+3%10=3
+38%10=8
+
+Map : It is an interface in the collection framework. Unlike other interfaces it is not a child interface of Collection interface.
+
+HashMap:
+i)It implements the Map interface and internally used Hashtable.
+ii)It contains unique elements.
+iii)It allows only one null key and multiple null values.
+iv)It doesnot maintain any order.
+v)The default capacity of HashMap is 16.
+
+TreeMap:
+i)Java TreeMap is a red-black tree based implementation.
+ii)It provides an efficient means of storing key-value pair in sorted order.
+iii)It stores values based on the keys. It implements NavigableMap interface and extends AbstractMap class.
+iv)It maintains ascending order.
+v)It allows only one null key and multiple null values.
+vi)It contains unique elements.
+vii)Non-synchronized class.
+
+
+Comparable:
+i)It is used to sort the objects of User-defined.
+ii)It is present in Java.lang package.
+iii)It provides a single sorting sequence.
+iv)It has compareTo method to compare objects.
+
+  compareTo(Object obj)
+
+ current>obj (positive integer)
+ current<obj (negative integer)
+ current==obj(Zero)
+
+
+Comparator:
+i)It is present in Java.util package.
+ii)It support multiple sequence of sorting.
+iii)It has two methods.(equals, comapre)
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

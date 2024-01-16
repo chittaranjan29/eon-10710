@@ -53,7 +53,7 @@ ii)It follow FIFO pattern.
 
 Deque:
 i)It is double ended queue.
-ii)In double ended queue insertion and deletion of the elements can be dobe from either of the end.(rear and front)
+ii)In double ended queue insertion and deletion of the elements can be done from either of the end.(rear and front)
 iii)It can be used as a stack or queue.
 iv)ArrayDeque implrmrnts the Deque interface.
 

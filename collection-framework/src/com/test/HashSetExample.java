@@ -3,6 +3,7 @@ package com.test;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Set;
 
 public class HashSetExample {
@@ -32,7 +33,7 @@ public class HashSetExample {
 			System.out.println(iterator.next());
 		}
 		
-		
+	
 		System.out.println(set.size());
 		System.out.println(set.contains("India"));
 		System.out.println(set.isEmpty());

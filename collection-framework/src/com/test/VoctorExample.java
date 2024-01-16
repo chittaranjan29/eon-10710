@@ -1,5 +1,6 @@
 package com.test;
 
+import java.util.Iterator;
 import java.util.Vector;
 
 public class VoctorExample {
@@ -18,6 +19,12 @@ public class VoctorExample {
 		
 		System.out.println(vector.size());
 		System.out.println(vector.get(0));
+		
+		Iterator<Float> iterator=vector.iterator();
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
 		
 
 	}

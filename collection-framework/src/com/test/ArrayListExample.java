@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArrayListExample {
 
@@ -63,6 +64,19 @@ public class ArrayListExample {
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
+		}
+		
+		
+		ListIterator<Integer> listIterator=list.listIterator();
+		while(listIterator.hasNext())
+		{
+			System.out.println(listIterator.next());
+		}
+		
+		List<Integer> listIterator1=list.reversed();
+		while(listIterator.hasPrevious())
+		{
+			System.out.println(listIterator.previous());
 		}
 		
 		System.out.println(list.contains(177));

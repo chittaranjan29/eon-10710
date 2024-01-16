@@ -1,0 +1,28 @@
+***************************************
+Collection Framework & Java 8 Features
+***************************************
+Day-17 Date- 15/1/24
+
+
+Agenda:
+i)Difference between collection & collections
+ii)Diefference between iterator, listiterator, enumeration
+iii)Difference between failsafe and failfast iterator
+
+ConcurrentModificationException - 
+
+iv)Difference between comparable and comparator
+v)Lambda Expression
+vi)Functional Interface
+vii)Stream API
+
+
+Recap:
+i)Map - HashMap, HashTable, LinkedHashMap, TreeMap
+ii)Comparable & comparator interface
+
+Employee, Product, Student
+
+
+
+  

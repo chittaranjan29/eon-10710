@@ -1,0 +1,81 @@
+******************************
+Java 8 features
+******************************
+Day :20, Date - 16/1/24
+
+Functional Programming
+
+Agenda:
+i)Lambda Expression
+ii)Stream API
+iii)Functional Interface(Interface with single abstract method)
+iv)Method Reference
+v)Static and default method
+vi)String joiner class
+vii)Collections class
+viii)Optional class 
+
+
+i)Lambda Expression:A lambda expression is simply a function without any name.
+It can never be used as a parameter in a function. Lambda expression facilitates 
+functional programming and simplifies the development a lot.
+
+syntax: (parameters) -> expression
+
+parameters: A lambda expression can have zero or more parameters, enclosed in paraentheses.
+Arraow token : It separates the parameters from the body of the lambda.
+body: The body of the lambda contains statements or expresssions describing the method's functionality. 
+
+
+ex: () -> {sysout("Hello world")}
+    
+    (int x,int y) ->{x+y;}
+	
+    (x,y) ->{return x+y;}
+
+Benifits:
+i)Consineness
+ii)Functional programming
+iii)Improved readability
+iv)Flexibility
+v)Interoperability with streams
+
+
+Task 1: create a functional interface NumberChecking with signle abstract method primeCheck.
+	String primeCheck(int n) method accept an integer and will check if it is Prime or not.
+	If the value is prime it should return "Prime Numebr" otherwise it should return "Composite Number".
+
+	String primeCheck(int n)
+
+Stream API:Java provides a new additional package in Java 8 called java.util.stream.
+This package privide classes, interfaces and enum to perform functional style operations
+on the elements.
+
+
+Collections, arrays, io stream etc.
+
+Assignment:
+i)Create a collection of integers and use all the intermediate operations and terminal operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+

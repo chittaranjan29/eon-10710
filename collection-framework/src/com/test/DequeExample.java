@@ -29,7 +29,13 @@ public class DequeExample {
 		arrayDeque.addLast("Bhutan");
 		System.out.println(arrayDeque);
 		
+		System.out.println(arrayDeque.element());
+		System.out.println(arrayDeque.getFirst());
+
+		System.out.println(arrayDeque.getLast());
+		System.out.println(arrayDeque.peekFirst());
 		
+		System.out.println(arrayDeque.peekLast());
 		
 		
 	}
