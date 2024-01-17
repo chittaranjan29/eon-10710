@@ -1,0 +1,107 @@
+********************************
+Java 8 fetures
+********************************
+Day:21   Dat: 17/01/2024
+
+Agenda:
+i)Optional class
+ii)Method References
+iii)Collectors class
+iv)StringJoiner class
+v)Default method and Static method
+
+
+
+
+Recap:
+i)Lambda Expression
+
+ () -> {}
+
+ii)Functional Interface:
+@FunctionalInterface
+
+ 
+iii)Stream API:
+
+ Collection/Arrays/IO channel
+
+ Intermediate operations:
+ Terminal Operations:
+
+i)Optional class:
+Java introduced a new class optional in Java 8. It is a public final class and is used to deal with 
+NullPointerException in Java application. To use this class we need to import java.util package.
+It provides methods that are used to check the presence of a value for a particular variable type.
+
+Advantages:
+i)Null checks are not required.
+ii)No more NULLPointerException at runtime.
+iii)No more boilerplate code.
+iv)We can write clean and neat code using Optional class.
+
+
+
+Method References:
+Method reference is used to refer method of the functional interface.
+When we use the lambda expression only to refer a method, can be replaced by method refrence.
+It is compact and easy form of lambda expression.
+
+  
+Reference to a static method :   ContainingClass::staticMethodName
+Reference to an instance method of a particular object:containingObject::instanceMethodName
+Reference to an instance method of an arbitrary object of a particular type: ContainingType::methodName
+Reference to a constructor: ClassName::new
+
+
+Collectors class:
+It is a final type of class added in Java 8. It is used to perform  reduction operations such as accumulating elements
+into collection, summerizing elements according to various criteria etc.  
+
+
+Default and Static:
+
+
+Q:-> Create a class according to the given specification :
+
+ Class Name: Employee
+ Properties: id, name, salary, designation
+ Constructors: default, parameterized
+
+ After that create a list of employees and perform average salary and total salary of all the employees using Stream API
+ and Collectors class.
+
+
+ 1) Why should one use the Optional class?
+ 2) Name a few recent features introduced in Java 8.
+ 3) What is a collection, and how is it different from a stream?
+ 4) What is the Lambada expression?
+ 5) Define stream pipelining.
+ 6) Explain the ‘Functional Interface’.
+ 7) Why are Static methods needed in Java 8?
+ 8) Define the default method. When can you use it?
+ 9) What are the most common types of Terminal operations?
+ 10)What is method reference in Java 8?
+
+
+50%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
