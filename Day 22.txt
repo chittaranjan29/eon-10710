@@ -1,0 +1,76 @@
+******************************
+JDBC
+******************************
+Day:22 Date: 19/1/24
+
+Agenda:
+i)using JDBC Update, delete operation
+ii)Statement and Prepared Statement
+iii)Callable Interface
+iv)ResultSet metatdata interface
+v)Database Metadata interface
+
+i)show databases
+ii)use dbname
+iii)create database
+iv)detete database dbname
+v)
+create table test(
+ id int,
+ name varchar(50) 
+
+);
+
+v)insert into tablename(`id`,`name`) values(1,'aman');
+vi)select * from tablename;
+vii)select id, name from tablename where id=535;
+viii)Update tablename set name='Kumar', email='test@gmail.com' where id=355;
+ix)delete from tablename
+x)delete from table where id=1;
+
+DriverManager:
+The DriverManager class is the component of JDBC API and also a member of the java.sql package. 
+The DriverManager class acts as an interface between users and drivers. It keeps track of the drivers that are available and 
+handles establishing a connection between a database and the appropriate driver.
+
+
+Connection interface:
+A Connection is a session between a Java application and a database. It helps to establish a connection with the database.
+The Connection interface is a factory of Statement, PreparedStatement, and DatabaseMetaData, i.e.,
+an object of Connection can be used to get the object of Statement and DatabaseMetaData.
+
+Statement interface:
+The Statement interface provides methods to execute queries with the database. 
+The statement interface is a factory of ResultSet i.e. it provides factory method to get the object of ResultSet.
+
+
+PreparedStatement interface:
+The PreparedStatement interface is a subinterface of Statement. It is used to execute parameterized query.
+
+ResultSet interface:
+The object of ResultSet maintains a cursor pointing to a row of a table. Initially, cursor points to before the first row.
+
+
+i)Differences between Statement and PreparedStatement. 
+ii)What is the use of Driver manager? 
+iii)What is a connection?
+iv)What is ResultSet?
+
+
+Function/Stored Procedure:
+
+We can write business logic inside the database using stored proceduce or function. 
+It will increse the performance beacuse the code is precompiled.
+
+ 
+
+CallableStamenet interface:
+It is used to call function or stored Procedure.
+
+
+Q:-> Create a Book table with five fields(id, name, authorName, category, price) and add few records into the table.
+     Create a Java program to perform insert and select operation.(Values should be taken dynamically from the user.)   
+
+
+
+  

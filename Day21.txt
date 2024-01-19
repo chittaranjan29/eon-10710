@@ -1,0 +1,56 @@
+*****************************
+JDBC API
+*****************************
+Day: 21 Date: 18/1/24
+
+Agenda:
+1. JDBC introduction
+2. Basic Database Operations(Insert, Update, Delete, Select)
+3. Steps to connect Java Application to Mysql Database
+4. JDBC CRUD operations.
+
+JDBC introduction:
+Java Database Connection or JDBC API provides industry-standard and database independent connectivity 
+between the Java application and relational database servers(relational databases, spreadsheets and flat files).
+
+
+      Java app    JDBC API        Database
+
+relational databases - MySQL, Oracle Server, MS Server, Postgres etc.
+
+
+JDBC Flow:
+JDBC helps you to write Java application that manages three programming activities:
+
+i)Connect to s datasource like a database.
+ii)Send queries and update statement in database.
+iii)Retrieve and process the result received from the database in response to the query.
+
+Interfaces:Connection, Statement, PreparedStatement, Callable, ResultSet, ResultSetMetadata, DatabaseMetadata
+Classes:DriverManager 
+
+JDBC Driver Types:
+i)JDBC-ODBC bridge Driver: Drivers that implements the JDBC API as a mapping to data access API, such as ODBC.
+Consider this driver if your database does not  support Java driver.
+
+ii)Java Native Code driver: Drivers that are partially written in Java and uses a client  linbrary specific 
+data source. 
+iii)All Java Middleware translation Driver: Drivers that uses a pure java client and comminicate with a
+middleware server using a database-independent protocol.
+
+iv)All Java Drivers: The drivers that are pure Java and implement the nnetwork protocol for specific data source.
+
+
+
+Recap:
+i)Lambda Expression
+ii)Stream API
+iii)Functional Interface
+iv)Method References
+v)Optional class
+vi)Collectors class(summingDouble, count,AveragingDouble)
+vii)Default & Static method
+
+Mysql Community Server - MSI installer - CUI 
+Mysql Workbench - GUI tool
+
