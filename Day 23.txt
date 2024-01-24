@@ -1,0 +1,41 @@
+***************************
+Mysql Commands
+***************************
+Day: 23 Date: 22/1/24
+
+Agenda:
+i)Database Metadata
+ii)ResultSet Metada
+iii)Mysql Commands
+
+ResultSetMetadata Interface:
+The metadata means data about data i.e. We can get further information from the data.
+This interface will provide us table information like total number of column, column type, column size, is readable or writable,
+schema name etc. 
+
+DatabaseMetadata Interface:
+This interface provides method to get metadata of a database such as database product name, database product version, driver name,
+number of tables, number of views etc.
+
+MySQL Data Types:
+
+Numeric - TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT, FLOAT, DOUBLE, DECIMAL
+String & text - Fixed length(TINYTEXT,TEXT, MEDIUMTEXT,LONGTEXT)   Variable length(VAECHAR, ) 
+Date & Time - YEAR, DATE, TIME, DATETIME, TIMESTAMP
+Blob & Json - BLOB, MEDIUMBLOB, LONGBLOB, JSON
+
+alter command:
+i)new column in the table
+
+Mysql conditions:
+AND, OR, NOT, NOTNULL, NOTEQUAL, BETWEEN, NOT BETWEEN, IN, NOT IN, ISNULL, ISNOTNULL, LIKE, NOT LIKE, EXIST, ANY  
+
+
+
+
+
+
+
+
+
+

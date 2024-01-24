@@ -1,0 +1,71 @@
+*******************************
+MySQL Commands
+*******************************
+Day: 24, Date: 23/1/24
+
+
+Agenda:
+i)Mysql Conditions(exists, between, not between, any, like etc) 
+ii)Mysql Constraints(Primary key, Foreign key, index, unique, not null, check, default)
+iii)Mysql clauses(distinct, order by, group by, having, form, where )
+iv)Mysql index
+
+employee -> salary 
+ eid(PK)    sid(PK), eid(FK) 
+
+Recap:
+i)RowsetMetadata interface
+ii)DatabaseMetadata interface
+iii)Mysql commands
+
+like : It is used to set a pattern match with the column value.
+
+Wildcard characters: 
+%(percent):represents zero, one or multiple characters 
+_(underscore): one single character
+not
+
+select * from studentinfo where sname like 'A%'; 
+
+between: Set a certain range for the field value. If the value of the field falls in the range bracket then
+the record will be fetched otherwise not. 
+
+
+Subqueries:A subquery is a query, which nested with another query and embedded with SELECT, INSERT, UPDATE or DELETE
+statement along with the various operator.
+
+
+any:It would return a boolean true if the comparision is true for any of the subquery condition else returns false. 
+exist: It would return a boolean true if the comparision is true for any of the subquery condition else returns false. 
+   
+Constraints: Constraints in Mysql are rules that are used to enforce certain validation logic on the table column value.
+
+Employee(id, name, salary, designation, city, email, phone )
+Primary Key, Foreign Key, CHECK, DEFAUILT, NOT NULL, INDEX, unique 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

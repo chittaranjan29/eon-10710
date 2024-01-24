@@ -1,0 +1,78 @@
+******************************
+MySQL Commands
+******************************
+Day: 25, Date: 24/1/24
+
+Agenda:
+i)Index - create, drop, show
+ii)Having, Group by clause
+iii)Mysql Join Types(LEFT, RIGHT, FULL OUTER JOIN, CROSS JOIN, INNER JOIN)
+iv)Mysql Previlege(GRANT, REVOKE, CREATE USER, DROP USER, SHOW USERS)
+
+GRANT - allowing db access to the uses
+REVOKE - taking the access rights 
+
+ 
+Recap:
+Constraint:
+Rules applied on column
+Validate the data
+
+
+order by -
+
+Index:
+An index is a data structure that allows us to add indexes in the existing table. 
+It will help us to retrieve that records faster from the table.
+
+
+CREATE INDEX name on table_name(column name); 
+
+Having: Having clause was added in Mysql because the where clause can not be used with aggregate methods.
+Group by: The group by clause is used to collect data from multiple records and group the result by one or more column.
+
+Aggregate Operation: sum(), avg(), max(), min(), count()
+
+select sum(salary) from employee ;
+select avg(salary) from employee;
+select min(salary) from employee;
+select max(salary) from employee;
+select count(salary) from employee;
+
+
+Join: It is used to retrieve data from multiple tables. Join is used with select query and perfored whenever you
+need to fetch records from two or more tables.
+
+
+Types: Inner, left, Right, outer, cross  
+
+
+Interview Questions:
+i)What is Index? How to create index in Mysql?
+ii)Explain group by and having clause.
+iii)How to arrange records in Mysql?
+iv)Explain uses of grant and revoke command.
+v)What is Mysql join and its types.
+
+Data Structure with Java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
