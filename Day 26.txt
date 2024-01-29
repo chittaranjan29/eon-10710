@@ -1,0 +1,17 @@
+******************************
+Mysql Joins
+******************************
+Day : 26, Date: 25/1/24
+
+Agenda:
+i)Mysql join Types
+ a)Inner b)Left c)Right d)Full outer join e)Cross Join  
+
+
+Table-A     inner join         Table-B
+Table-A     left join          Table-B
+Table-A     right join         Table-B
+Table-A     outer join         Table-B
+Table-A     corss join         Table-B
+
+20 Queries

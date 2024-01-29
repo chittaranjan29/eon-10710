@@ -1,0 +1,79 @@
+**********************************
+Java Input/Output
+**********************************
+Day: 26, Date: 29/1/24
+
+Agenda:
+
+i)What is Input and Output?
+ii)What is Stream?Types of Stream.
+iii)Input and Output Stream.
+iv)Stream hierarchy.
+v)Classes available under InputStream and OutputStream.
+
+Mysql:
+
+Joins
+Types of Joins: Inner, Outer, Left, Right, Cross, Self
+
+3 * 4=12
+
+Input : It is a process of taking inputs in the program from external sources.
+Output: It is a process of returning the generated output from the inputs given to the program.
+
+Java uses the concept of stream to make the I/O operation fast. The java.io package contains all the classes
+that are required for input/output operations.   
+
+What is a stream?
+It is sequence of bytes flows in a particular direction. 
+Java provides three types of Streams:
+
+i)Standard Input Stream(System.in)
+ii)Standard Output Stream(System.out)
+iii)Standard Error Stream(System.err)
+
+All these streams are attached with console.
+
+int a=System.in.read(); //returns ASCII of the given character
+
+System.out.print((char)i);
+
+System.err.print("Error message");
+
+OutputStream:
+
+i) FileOutputStream :
+Java FileOutputStream is a stream used for writing data to a file.
+
+ii)ByteArrayOutputStream iii)FilterOutputStream iv)PipedOutputStream v)ObjectOutputStream vi)DataOutputStream 
+vii)BufferedOutPutStream viii)PrintStream
+
+BufferedOutPutStream :
+It internally uses buffer to store the data. It provides more efficiency in outputing the data to the destination.
+
+InputputStream:
+
+ByteArrayOutputStream :It is used to write common data to multiple files. It holds a copy of the data and forwards it to multiple streams.
+ByteArrayInputStream : It contains an internal buffer which is used to read byte array as stream.
+
+
+i) FileInputStream ii)ByteArrayInputStream iii)FilterInputStream iv)PipedInputStream v)ObjectInputStream vi)DataInputStream 
+vii)BufferedInputStream viii)PushbackInputStream
+
+
+Depeneding on the type of the operation: Input, Output, Error
+Dependending on the type of the file: Bytes, Character
+
+
+Q:-> WAP in Java to read ten lines of inputs from the user using the console and write them to a text file.
+
+
+
+
+
+
+
+
+
+
+
