@@ -1,0 +1,50 @@
+********************************
+Java I/O
+********************************
+Day:28,   Date: 30/1/24
+
+Agenda:
+i)Character Stream
+ii)File class
+iii)Reader, Writer, FileReader, FileWriter, PrintStream, PrintWriter, BufferedReader, BufferedWriter
+
+
+Recap: I/O process, Stream, Types of stream, FileInputStream, FileOutputSytream, ByteArrayInputSytream, ByteArrayOutputStream
+
+Input/Output Source: Console, File, Socket(i/o channel)
+
+File class:
+The file class is an abstract representation of file and dictionary pathname. A pathname can be relative or absolute.
+This class provides several methods for working with directories and files such as creating a new directory or file, renaming and deleteing
+file and directory, listing all the files in a directory etc.
+
+Character Stream:It is used to perform 16bit unicode input and output operations. Character stream will help us to read or write character.
+
+
+Byte Stream:Byte stream is used to perform ipput and output of 8bit bytes.
+
+Questions:
+i)What is character and buffer stream? 
+ii)Explain the differences between character and buffer stream.
+iii)Explain the working of Reader and Writer class.
+iv)What is the main use of PrintStream class?
+v)What are the important methods available in File class.
+vi)Uses of BufferedReader and BufferedWriter class.
+vii)Explain Filereader and FileWriter class.
+
+
+
+Q: WAP to copy the content of a file to another file.(Using BufferedReader and BufferedWriter)
+t1.txt - This is a sample text.
+t2.txt - empty
+
+
+
+
+
+
+
+
+
+
+
