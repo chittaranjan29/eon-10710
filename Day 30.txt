@@ -1,0 +1,66 @@
+***************************
+Sorting
+***************************
+day: 31, date: 2/2/24
+
+
+Agenda:
+i)Insertion Sort, advantages, disadvantages and time complexity
+ii)Merge Sort,advantages, disadvantages and time complexity
+iii)Quick Sort,advantages, disadvantages and time complexity
+
+Recap:
+i)Searching & Sorting
+ii)Linear and binary search
+iii)selection and bubble sorting
+
+
+Insertion Sort:
+In insertion sort, the array is virtually split into a sorted and unsorted part. Values from the unsorted array are 
+picked up and placed at the cotrrect position at the sorted part.
+
+Advantages:
+i)This algorithm is very simple and easy to implement.
+
+
+Disadvantages:
+i)It is applicable for small data values.
+ii)It is appropriate for datasets the are partially sorted.
+
+Time complexity:
+i)Best: O(N)
+ii)Average: O(N^2)
+iii)Worst : O(N^2)
+
+
+Merge Sort:It is defined as a sorting algorithm that works by dividing ar array by into smaller subarrays,
+sorting each subarray, and then merging the sorted subarrays back together to form the sorted final array.
+
+Advantages:
+i)It is a stable sorting algorithm, which means it maintains the relative order of equal elements in the input array.
+ii)Merge sort has a worst-case time complexity of O(NlogN) which means that it performs well even on larger data sets.
+iii)Merge sort is a naturally parallelizable algorithm, whcih means it can be easily parallelized to take advantage of 	  	 
+multiple processor or thread.
+
+Disadvantages:
+i)Merge sort requires additional memory to store the managed sub arrays during the sorting process.
+ii)For small data sets it has higher time complexity which means slower performance for very small datasets. 
+
+Time Complexity:
+Best: O(N)
+Average: O(NlogN)
+wrost: O(NlogN)
+
+Q:-> Explain the working of insertion sort?
+Q:->Advantages, disadvantages of insertion sort.
+Q:->How merge sort works? what is the time complexity of merge sort.
+Q:->Advatages of merge sort. 
+
+
+Q:-> write a program to sort the elements of an array in descending order using merge sort technique.
+Q:-> Write a binary search program in recursive fashion.
+
+ 
+
+
+

@@ -1,0 +1,76 @@
+*************************************
+Data Structure & Algorithm
+*************************************
+Day: 29  Date: 21/1/24
+
+
+Agenda:
+i)What is an algorithm?
+ii)Role of algorithnm in Problem solving.
+iii) Vital properties of an algorithm
+iv) Advantages
+v)Role of data structure
+vi)Algorithnm optimization
+vii)Sorting Algorithm(Bubble, Selection, Insertion Sort)
+
+
+Algorithm: It is a sequence of logical steps carried out to solve a problem.
+
+
+Problem: Addition of two numbers
+Solution: 
+i)declare a class with main method 
+	  ii)declare variables (v1, v2, result)
+          iii)take input from the user inside v1 and v2
+          iv)perform addition of v1 and v2 and store the result in result vaariable
+          v)print the value of result 
+          
+Problem: Check Prime Number
+   
+   i)Number of divisors between 1 to n is 2 or not.
+   ii)If there is any divisor of the number between 2 to n/2.
+   iii)If there is any divisor of the number between 2 to math.sqrt(n).If exist come out of the loop.
+   iv)Print the number is prime or composithe.
+   v)stop
+
+Algorithm:
+i) Read the value  of n.
+ii)construct a loop and between 1 to sqrt(n) if any divisiors exits
+
+A single problem can be solved in many ways, and each of this method is an algorithm. 
+
+Problem: Print "Hello World" 100 times
+i)Add 100 SOP statements and each of them would print "Hello World"
+ii)Add a form loop staring from 1 and goes upto 100 and in the body need to print "Hello World+"
+
+Vital properties of an algorithm:
+i)Time Complexity(n log n, nlogn)
+ii)Space Complexity
+
+i)Finiteness: Ends within finite steps.
+ii)Difiniteness: Steps are unambiguous and confusioln free.
+iii)Inputs: Accept zero or more inputs.
+iv)Output:Yields at least one output.
+v) Effectivenfeess: Comprises feesible, time bound instruction  
+
+Advantages:
+
+i)Algoritm development involves identifying steps, decisions, and variables for program creation.
+ii)Breaks the complex problem into managable subproblems for systematic resolution.
+iii)Ensures consistency and reliability through uniform steps execution.
+|iv)Enhances rational decision making by minimizing human biases.
+
+
+Q:->Write an algorithm, flowchart and coding implementation of finding factorial of a number.
+
+5!=1 * 2 *3 *4 *5 =120
+4!= 1*2 * 3 * 4 = 24
+
+Sorting: 
+i)Selection Sort
+
+  
+
+
+
+ 

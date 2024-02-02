@@ -1,0 +1,9 @@
+Algorithm:
+i)read n
+ii)set status to false
+iii)loop i=	2
+iv)if n%i==0 then status=true; print non prime number; break
+v)Increment i by 1
+vi)repeat step iv and v till  i <= Math.sqrt(n)
+vii)if status!=false print prime number
+viii)End

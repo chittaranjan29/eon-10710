@@ -1,0 +1,182 @@
+****************************
+Sql Triggers and Index
+****************************
+date : 31/1/24
+
+
+Agenda:
+
+i)What is trigger?
+ii)Working of Trigger in Mysql Server.
+iii)types of triggers.
+iv)Row level and statement level trigger
+v)before insert, after insert, before update, after update, before delete, after delete
+
+
+Trigger:
+A trigger is a set of SQL statements that reside in system catelog. Ii is a special type of stored
+procedure that is invoked automatically in response to an event.
+
+Each Trigger is associated with a table, which is activated on any DML operation such as insert, update or delete. 
+
+Types of Triggers:
+i)Row level trigger:It is trigger, which is activated for each row by a triggering statement such as insert, update  or
+delete.
+
+	
+ii)Statement level trigger:It is a trigger, which is fired once for each event that occurs on a table regardless of 
+how many rows are inserted, deleted or updated.
+
+Advantages:
+i) Easy to maintain.
+ii) It helps us to write complex business logic easily.
+iii) It reduces the client-side code that saves time and effort.
+iv)Triggers provides an alternative way to run a scheduled task.
+v)It helps us to validate data before insert or update.
+
+Types of triggers:(Event type)
+i)Before insert
+ii)After insert
+iii)Before update
+iv)After update
+v)before delete
+vi)After delete
+
+
+
+
+
+
+
+create database bank_db;
+
+use bank_db;
+
+create table customer
+(
+acc_no integer primary key,
+avail_balance decimal
+);
+insert into customer values(1000,15000);
+insert into customer values(1001,55000);
+insert into customer values(1003,20000);
+
+select * from customer;
+
+create table mini_statement
+(
+acc_no integer,
+avail_balance decimal,
+foreign key(acc_no) references customer(acc_no) on delete cascade
+);
+
+select * from mini_statement;
+
+delimiter //
+create trigger update_customer 
+ before update on customer
+ for each row
+ begin
+  insert into mini_statement values(old.acc_no,old.avail_balance);
+ end; // 
+ 
+ update customer set avail_balance = 30000 where acc_no=1000; 
+ 
+ 
+ create table micro_statement (
+ acc_no integer,
+ avail_balance decimal,
+ foreign key(acc_no) references customer(acc_no) on delete cascade
+ );
+ 
+ select * from micro_statement;
+ 
+ delimiter //
+ create trigger after_update
+  after update on customer
+  for each row
+  begin
+   insert into micro_statement values(new.acc_no, new.avail_balance);
+  end; //
+
+update customer set avail_balance = 25000 where acc_no=1000; 
+
+show triggers;
+
+
+create table contact
+(
+contact_id integer(11) not null auto_increment primary key,
+first_name varchar(30) 	not null,
+last_name varchar(30) not null,  
+birthday date,
+created_date date,
+created_by varchar(30)
+);
+delimiter //
+create trigger contacts_before_insert
+before insert
+on contact for each row
+ begin
+  declare vuser varchar(30);
+  select user() into vuser;
+  set new.created_date=sysdate();
+  set new.created_by=vuser;
+ end;// 
+ 
+insert into contact(`first_name`,`last_name`,`birthday`) values("Aman","Mishra",str_to_date("19-08-1999","%d-%m-%Y"));
+select * from contact;
+  
+  
+ create table contact_audit
+ (
+ contact_id integer,
+ created_date date,
+ created_by varchar(30)
+ );
+ 
+ delimiter //
+ create trigger contact_after_insert
+ after insert
+ on contact for each row
+ begin
+  declare vuser varchar(30);
+  select user() into vuser;
+  
+  insert into contact_audit(`contact_id`,`created_date`,`created_by`) values(new.contact_id, sysdate(),vuser);
+  end; //
+  
+  
+ insert into contact(`first_name`,`last_name`,`birthday`) values("Shalini","roy",str_to_date("26-05-1999","%d-%m-%Y"));
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
