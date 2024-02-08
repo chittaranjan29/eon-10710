@@ -1,0 +1,27 @@
+***********************
+LinkedList
+***********************
+Day: 33, Date : 7/2/24
+
+
+Agenda:
+i)What is linkedlist?
+ii)Types of Linkedlist.
+iii)Implementation of difeerent types of linkedlist
+iv)Advantages of linkedlist over array.
+
+LInkedList: It is a linear data structure. Elements are represented using nodes and connected through the reference.
+A node contains element and adress of the next node.
+
+
+
+i)Singly ii)Doubly iii)Circular
+
+Stack & Queue implementation:
+
+
+[12, ptr] ->[45,ptr]->[78,null]
+
+
+i)Delete any node from the circular linkedList.
+

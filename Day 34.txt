@@ -1,0 +1,107 @@
+**************************
+LinkedList, Stack & Queue
+**************************
+Day : 34, Date: 8/2/24
+
+Agenda:
+i)Doubly LinkedList(structure, working & time complexity)
+ii)Stack data structure, its working principle and implementation.
+iii)Queue data structure, its working principle and implementation. 
+
+Doubly LinkedList:
+Doubly linkedlist is a variation of linkedlist in which navigation is possible both ways
+either forward or backword easily as compared to Singly linkedlist.
+
+Node - Next,Pre,Data
+
+Next - It will contain a link to next node.
+Pre -  It will contain a link to previous node.
+Data - It will be the actual element that we want to store in the node.
+
+Stack:Stack is a kind of data structure which allows operations on data only at one end.
+It allows to access the last inserted data only.
+Stack follows LIFO(Last In First Out) ordering.  
+Stack allows different operations on the data. 
+
+push - It inserts a new element on the top of the stack.
+Pop  - It removes the top of the stack element.
+Peek - It returns the element present at the top of the stack.
+Search - Search the given element in the stack.
+
+
+
+Queue: Queue is a kind of data structure which is similar to stack with primary diffrence that 
+the first item 	inserted is the first item to be removed. 
+It is based on FIFO(First In First Out ordering).
+
+Operations:
+i)Enqueue: adds an item the rear end of the queue.
+ii)Dequeue:deletes an element from thw front end of the queue.
+
+iii)Peek: Gets the elements from the front end without removing.
+iv)isFull:Checks if the queue is full ot not.
+v)isEmpty: Checks if the queue is empty
+
+  
+
+size=8
+
+[16,78,99,34] top=34  
+
+push 76 
+
+[16,78,99,34,76] top=76
+
+pop
+
+[16, 78, 99,34] top=34
+
+peek
+
+34
+
+Question:
+i)What is stack? Explain the working principle of Stack.
+ii)What are the different operations can be performed on the stack?
+iii)Explain the time complexity of Stack.(insert, delete, search and access)
+iv)What is queue?Explain the working principle of Queue.
+v)What are the different operations can be performed on a queue?
+vi)Explain the time complexity of Queue.(insert, delete, search and access)
+vii)What is Overflow and Underflow?
+viii)Example of real world application based on stack and queue.
+
+
+Examples of Stack: 
+ i)Expression conversion(infix, postfix, prefix)
+ ii)History of visted website.
+ iii)Redo/Undo operations in text processor.
+
+
+Examples of Queue: 
+ i)Printer management.
+ ii)Task scheduling.
+ iii)Event management.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

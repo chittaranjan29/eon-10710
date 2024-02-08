@@ -1,0 +1,193 @@
+********************************
+Sorting and LinkedList
+********************************
+Day: 32, Date : 6/2/24
+
+Agenda:
+
+i)Quick sort - algorithm, advantages, disadvantages, time complexity
+ii)Heap sort - algorithm, advantages, disadvantages, time complexity
+iii)LinkedList - insert, delete, traverse etc.
+
+
+Quick Sort:It is a sorting algorithm based on the divide and conquer algorithm that picks an element as a pivot
+and partitions the given array around the picked pivot and placing the pivot in its correct position in the sorted array. 
+
+The key process in Quick sort algorithm is partition().
+
+example:
+
+{10, 80, 30, 90, 40, 50, 70}
+
+pivot : 70(last element of the array as pivot)
+
+Prtition around 70(pivot - last element)
+
+{10, 30, 40, 50},         {90, 80}   
+
+pivot : 50                pivot: 80
+
+{10,30,40} , {}           {}, {90} 
+
+pivot : 40
+{10,30}, {}
+
+pivot : 30
+
+{10}, {}
+
+
+{10, 30, 40, 50,80, 90}
+Time Complexity:
+Best case: NlogN
+Average Case:NlogN
+Worst case: O(N*N)
+
+Advantages:
+i)It is divide-and-conquer algorithm that makes it easier to solve problem.
+ii)It is efficient on large data sets.
+iii)It has a low overhead, as it requirs a small amount of memory to function.
+
+Disadvantages:
+i)It has a worst case time complexity of O(n*n) which occurs when the pivot is choosen poorly.
+ii)It is not a good choice for small data sets.
+iii)It is not a stable sorting algorithm because if two elements have the same key, their relative order 
+will not be preserved. 
+
+
+Heap sort : It is comparision-based sorting technique based on Binary heap data structure.
+It is similar to selection sort where we first find the minimum element and place the minimum element 
+at the beginning. Repeat the same process for the remaining elements.
+
+Example:
+
+arr={4,10,3,5,1}
+
+i)create a binary tree from the array
+          4
+         / \
+        10  3
+       / \ 
+      5   1
+
+ii)Transform the binary tree into a mix heap(heapify)
+10>4
+   	  10
+         / \
+        4   3
+       / \ 
+      5   1 
+
+ 5>4
+          10
+         / \
+        5   3
+       / \ 
+      4   1 
+
+iii)Heap sort
+Remove the max element from root and Max heapify
+
+10 - removed (last element will replace the root)
+1 - id the last node in the tree
+
+          1                5
+         / \              / \
+        5   3    ->      4   3
+       /                /
+      4                1
+
+5 - removed(max) (last element will replace the root)
+Remove the max element from root and Max heapify
+    1             4
+   / \           / \
+  4   3         1   3
+
+4 - removed(max) (last element will replace the root)
+Remove the max element from root and Max heapify
+
+  3
+ / 
+1
+
+3 - removed 
+
+1- removed
+
+Remove the last emement and return the sorted array
+
+1,3,4,5,10
+
+Time complexity: O(NlogN)
+
+Advatages:
+i)It is simpiler to understand and implement then other sorting algorithm.
+ii)It uses very less memory. Apart form what is necessary to hold the list, no additional space is required.
+iii)Heap sort has a time complexity of O(NlogN) in all cases.This makes it an efficient sorting algorithm for 
+larger data sets.
+
+
+Disadvantages:
+i)Heap sort is not efficient working with highly complex data.
+ii)Heap sorting is unstable. It might rearrange the relative elements.
+iii)Heap sort is costly. 
+
+
+Product based Company: Sorting Algorithm, LinkedList
+Services based Company:
+
+LinkedList: A linked list is a linear data structure, in which elements are stored in the form of nodes.
+These nodes are located in non-contiguous memory locations. Every node has two parts namely data and next reference.
+
+head node is the first node of the linked list.
+Tail node is the last node of the linked list.
+
+Next reference of the last node points to null to indicate the end of linkedlist.
+
+[data, next]
+
+Operations:
+
+i)Insert ii)Remove iii)traversing(Moving through the elements) iv)Replace v)Count nodes 
+
+Types:
+i)Single/Singly i)Double/Dubly ii)Circular
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
