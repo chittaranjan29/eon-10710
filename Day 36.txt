@@ -1,0 +1,63 @@
+*********************
+Maven
+*********************
+Day: 35, Date: 12/2/24
+
+
+Agenda:
+i)Implementation of tree traversal(inorder, preorder, post)
+ii)What is Maven?
+iii)Purpose of Maven.
+iv)What is POM.xml?
+v)Advantages of Maven.
+vi)Dependency Management.
+vii)Maven commands.
+viii)Maven plugins.
+
+Maven: Maven is Project management cum build tool.
+
+Build - Compiling the source code and creating executable code.
+Test.java -> Test.class
+
+1000 - Java source code file(.java)
+
+Build tool - Maven/Gradle/Ant
+
+
+Environments:
+Developer team:Dev Environment
+QA Team:QA Environment
+UAT: UAT Environment
+Pilot: Pre Prod Environment
+Live: Production Environment
+
+
+Software Development(SDLC process):
+ i)Compiling
+ ii)recompiling
+ iii)Managing Dependencies(jar files)
+ iv)Creating Artfact(.jar, .war, .zip)
+ v)Packaging the compiler code(.jar, .war)
+ vi)Running the test cases(Unit testing - test cases)
+ vii)Installing the packaged code in the server repository or local repository 
+ viii)Generate documentation from the source code
+
+Maven - i)As a tool in the IDE(Eclipse, IntellijIDEA, VScode)
+ 	ii)As a standalone software(running commands)
+
+Installation:
+ i)Download the maven zip file from the official website.
+
+clean - clearing previously created class files.
+mvn compile
+mvn clean
+mvn test
+
+
+
+
+
+
+
+
+

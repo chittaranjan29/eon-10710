@@ -1,0 +1,118 @@
+****************************
+Tree Data Structure, Maven
+****************************
+Day: 35,  Date: 8/02/24
+
+Agenda:
+i)What is tree? type of tree?
+ii)Implement tree data structure
+iii)Advantages and time complexity
+iv)What is Maven? What is a build tool.
+v)Working of maven.
+
+
+Terminologies:
+Tree:A tree is a data structure in which data elements are implemented using nodes. 
+Every node contains a key.
+
+
+Then top node of the tree is called root node. Every node can have left and child node.
+
+Root Node: The root node is the top most node in the tree hierarchy.
+Leaf Node: A node without child node is called leaf node.
+Parent Node: If any node is the descendent of any other node then the node is said to be parent node of the
+sub node.
+Sibling: The nodes that have the same parent node are called siblings.
+Ancestor Node: An ancestor of a node is any predecessor node on a path from the root to the node.
+Descendent Node:The immediate successor of the given node is knows as Descendent node.
+	
+Edge: The path that connects two nodes.
+
+Application of Trees:
+i)Organize data.
+ii)Tier(Dictionary)
+iii)B tree and B+ tree(used in database for indexing purpose)
+iv)Routing table	
+
+Types of tree data structure:
+i)General tree
+ii)Binary tree
+iii) Binary Search Tree
+iv)AVL tree
+vi) Red-Black tree.
+vii)B and B+ tree
+viii)splay tree
+
+
+General Tree:  The general tree is one of the tree data structure.In general tree a node can have 0 or
+n maximum numbers of nodes.
+
+ A
+/|\
+BCD
+Binary tree:
+In Binary  tree each node of the tree has utmost 2 children.  
+Binary Search Tree: It is a non linear data structure in which one node is connected to n number of nodes.
+. 
+AVL tree: It is one of the types of binary tree(a varient of Binary search tree).
+It is a self balancing binary tree that was invented by Adelson, Velsky and Lindas.
+It is a self balancing tree. The  self balancing is occured using balancing factor.
+
+Red-Black tree: The red-black tree is a self balancing tree. In the AVL tree, we do not know how many rotation would be
+required to balance the tree, but in red-black tree exactly two rotation is required to balance the tree.
+
+Splay Tree: It is also a kind of Binary Search Tree in which the last acessed element is placed at the root position 
+of the tree after doing some rotation.
+
+
+B-tree: It is a balanced m-way tree where m defines the order of the tree.A b-tree can contain more than one key
+and than two children.It always maintains the sorted  data.In b-tree the leaf nodes must be at the same level.    
+
+
+17,89,45,90,56
+
+        17
+        /\
+          89
+          /\    
+         45 90
+		tree.insert(10);
+		tree.insert(60);
+		tree.insert(30);
+		tree.insert(90);
+		tree.insert(160);
+		tree.insert(47);
+		tree.insert(95);
+		tree.insert(7);
+
+   
+
+   10                    7
+   /\
+     60
+     /\ 
+    30 90
+       /\
+         160
+
+Traversing: Going throgh all the the nodes of a tree.
+i)InOrder:
+  ->Left Subtree recursively
+  ->Root Node
+  ->Right Subtree recursively
+   
+ii)PreOrder
+  ->Root Node 
+  ->Left Subtree recursively
+  ->Right Subtree recursively
+
+iii)PostOrder
+   ->Left Subtree recursively
+   ->Right Subtree recursively
+   ->Root Node 
+
+
+
+
+
+

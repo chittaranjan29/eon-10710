@@ -1,0 +1,93 @@
+**************************
+Maven & Junit
+**************************
+Day: 36, Date: 13/2/24
+
+Agenda:
+i)Maven commands
+ii)Maven plugins
+iii)Test Driven Development
+iv)Junit introduction
+v)Junit test cases
+
+Maven: Project management tool cum built tool.
+
+Main Phases:
+
+i)compile - compiling the source code and generating the class files in target folder 
+ii)clean - detelting target directory
+iii)test - run the test cases(Junit or testNg)
+iv)Validate - validate, if project is correct or not and all the necessary informations are available
+v)package - take compiled code and package it in a distributable format, e.g- WAR, JAR 
+vi)verify - run any checks to verify the package is valid and meets quality criteria
+vii)install - install the package in the local repository
+viii)deploy - copies the final package to remote repository
+
+Maven plugin:
+Maven plugins are central part of maven framework, it is used to perform specific goal .
+
+Types: 
+i)Build plugins
+ii)Reporting plugins
+
+plugin should be added in pom.xml file
+
+Ex: Compile plugin
+
+Testing:It is an inportant part of software development lifecycle which is essential for completeness of 
+the project.
+
+Unit testing, integration testing, User acceptence testing, performance testing. 
+
+Purpose of testing:
+i)To findout bugs and errors in the project at a very early stage.
+ii)To findout missing requerements in the project.
+ 
+
+Unit testing: It is a testing approach to test vand verify that inpendent units of the application are
+working correctly without any bug.
+
+Junit and TestNg+
+
+
+Ecommerce - singup, login, addtocart, checkout, payment - sets of input
+
+JUnit5 - Juniter Version - Modular project
+
+Jupiter Engine + Juiter API + Vinatge Engine
+
+Test Class: It is the class in which we write our junit test cases.
+A test class is composed of multiple test cases.
+
+test case: It is a test method where we erite the test logic. Either a test case pass or fails.
+
+Testing : Expected out <-> Actual Output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
