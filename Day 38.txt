@@ -1,0 +1,101 @@
+*********************************
+Junit
+*********************************
+Day:38, Date: 14/2/24
+
+Agenda:
+i)Unit testing
+ii)Test Driven Development and Business Driven Development
+iii)Junit Introduction
+iv)Junit assert methods
+iv)Junit annotations
+v)Unit test cases
+
+
+
+Purpose of testing:
+i)Identifying bugs, defects and missing requirements in the project.
+ii)Quality of the software can be maintained.
+
+Banking App:
+Account opening:
+Unit testing:
+i)Junit, testNg
+
+Junit 5:
+i)Junit Jupiter API(assert methods and annotations)
+ii)Junit Jupiter Engine 
+iii)Junit Vintage Engine 
+
+i)Test class(A class in which we write all the test cases.)
+ii)Test case(A test method where we write the logic of the test.)
+
+src.main.java - business logic source code
+src.test.java - test cases for testing business logic
+
+bankapp.jar
+
+assert methods:
+i)assertTrue ii)assertNotNull iii)assertNull iv)assertSame v)assertFalse v)assertEquals vi)assertNotEquals
+annotations:
+@test, @Disabled, @BeforeEach, @BoforeAll, @AfterEach, @AfterAll etc.
+
+Q:-> Write a business logic method to check a given number is prime or composite.
+     Write appropriate/necessary test cases for the method.
+
+
+@Repeted 
+@Disabled 
+@DisplayName
+@Timeout
+
+Interview Questions:
+i)What is Unit Testing? Explain the purpose of Unit testing.
+ii)What is Junit?What are the modules available in Junit?
+iii)Why do we use Juint? Who uses Junit more - Developers or Testers?
+iv)What are the features of Junit?
+v)Is it mandatory to write test cases for every logic?
+vi)What are some of the important annotations provided by Junit?
+vii)How would you write time bound test cases?
+viii)What is the importance of @Test annotation?
+ix)What is a test suite?
+x)How to ignore/skip test in Junit?
+
+
+TDD Vs BDD:
+
+TDD: Test Driven Development
+BDD: Behavior Driven Development
+
+
+Q:-> Write a method for checking a password is 8 charcters long and contains atleat 1 upper case, 1 lowercase,
+1 special and 1 digit.Write necessary test cases to test the business logic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

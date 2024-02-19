@@ -1,0 +1,78 @@
+**********************
+Junit
+**********************
+Day:39, date:15/2/24
+
+
+Agenda:
+i)What is test life cycle?
+ii)@BeforeEach, @AfterEach, @AfterAll, @BeforeAll
+iii)Parameterized test
+iv)Assert methods 
+
+
+Recap:
+i)TDD 
+ii)BDD
+iii)Junit test cases - @Test
+
+assertTrue
+assertFalse
+assertSame
+assertEquals
+assertNull
+assertNotNull
+assertSame
+assertTimeout - @timeOut
+@Repested, @Disabled
+
+Life Cycle:
+/*
+ * Set up: This phase put the test infrastructure in place.Junit provides class level setup
+ * and method level setup.
+ * 
+ * Test execution:In this phase test execution and assertion happens.
+ * The execution result will signify a success or failure.
+ * 
+ * 
+ * Clean up: This phase is used to clean up the test infrastructure setup in the first 
+ * phase.Just like setup,teardown also happens at class level and method level.  
+ * 
+ * 
+ */
+
+i)Write a method to check a number is Armstrong number or not. write a parameterized test case to test the method. 
+
+
+Interview Questions:
+i)What is test life cycle?
+ii)Explain the uses of @BeforeEach, @BeforeAll, @AfterEach, @AfterAll annotations.
+iii)Whis is purpose of assertAll?
+iv)What is parameterized test? How to write parameterized test in Junit?
+v)What are the advantages of parameterized test? 
+
+Assignment:
+i)Write a method to generate random otp(four digits) for user.
+Write test cases for the above method to check if the otp is generated and accepted within 10 seconds. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

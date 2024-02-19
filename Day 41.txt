@@ -1,0 +1,102 @@
+******************
+HTML
+******************
+Day:41, Date : 19/2/24
+
+Agenda:
+i)HTML Tags(form, input, select)
+ii)Iframe tag
+iii)Layout related tags in HTML5(header, footer, aside, article etc)
+iv)HTML 5 form validation
+v)Adding javascript and css in HTML document
+
+Form components:
+Input fileds: text, number, email, date, color, phone, radio, checkbox etc 
+Select dropdown: select
+
+
+Validations:
+i)required ii)readonly/disabled iii)Placeholder iv)max,min  v)maxlength, minlength vi)size vii)multiple viii)Pattern 
+ix)step x)autofocus xi)height, width 
+
+Pattern - 
+country code : IN, UK, PK, SL, JP
+
+File paths:
+An HTML file path is used to describe the location of the file in the website directory. 
+
+<img src="picture.jpg">
+<img src="images/picture.jpg">
+<img src="/images/picture.jpg">
+<img src="../picture.jpg">
+
+File paths are used to link webpages with external or internal resources/files.
+
+i)images
+ii)webpage
+iii)Javascript files
+iv)CSS style sheets
+
+
+There are two types of file paths:
+i)Absolute ii)Relative
+
+
+<img src="https://abc.com/demo.jpg"></img>
+<img src="D:/demo.jpg"></img>
+
+<img src="picture.jpg"> 
+It indicates that picture.jpg is located in the same folder as the current page.
+
+<img src="images/picture.jpg">
+It indicates that picture.jpg is located in the images folder in the current folder. 
+
+<img src="/images/picture.jpg">
+It indicates that picture.jpg is located in the images folder of the root directory.
+
+<img src="../picture.jpg">
+It indicates that picture.jpg is located in the folder one level up from the current folder.
+
+Javascript:
+i)Using internal js 
+ii)Using External js
+
+<script>
+</script>
+
+
+CSS:
+i)Internal CSS
+ii)Inline CSS
+iii)External CSS
+
+<style>
+
+
+i)Tags - uses
+ii)What is relative path? example.
+iii)What is absolute path? example.
+iv)What are the different ways available to add css in html document?
+v)What are the different ways available to add javascript in html document?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

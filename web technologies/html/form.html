@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+      body
+      {
+        background-color: aquamarine;
+      }
+    </style>
+    <link href="style.css" rel="stylesheet"></link>
+   
+</head>
+<body onload="test()">
+
+    <h2>Registration Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="Enter a valid name" minlength="5" maxlength="50" required autofocus>
+        
+        <br>
+        <label>Company:</label>
+        <input type="text" name="company" value="ABC Pvt. Ltd." readonly> 
+        
+
+        <br>
+        <label>Company:</label>
+        <input type="text" name="company" value="ABC Pvt. Ltd." disabled > 
+
+        
+
+        <br>
+        <label>Date Of Birth</label>
+        <input type="date" name="dob" >
+
+        <br>
+        <label>Email</label>
+        <input type="email" name="email">
+
+        <br>
+        <label>Phone</label>
+        <input type="tel" name="phone">
+        
+        <br>
+        <label>Password</label>
+        <input type="password" name="password" pattern=".{8,}" size="10" title="password must be eight or more characters">
+
+        <br>
+        <label>Image</label>
+        <input type="file" name="image"  multiple>
+
+        <br>
+        <label>Country code</label>
+        <input type="text" name="code" pattern="[a-zA-Z]{2}">
+
+        <br>
+        <label>Points</label>
+        <input type="number" name="points" step="2">
+
+        <br>
+        <label>Gender :</label>
+        Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender">
+        Other<input type="radio" name="gender">
+
+        <br>
+        <label>Food preference:</label>
+        <input type="checkbox" name="veg">Veg 
+        <input type="checkbox" name="Non-veg">Non-Veg
+        
+
+        <br>
+        <label>Country:</label>
+        <select name="country">
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+            <option value="USE">UAE</option>
+        </select>
+
+        <br>
+        <label>OTP:</label>
+        <input type="number" name="otp" min="0000" max="9999"> 
+
+         <br>
+         <label>Captcha</label><br>
+         <input type="image" src="Okta-Captcha.png" height="100" width="200">
+
+         <label>Address</label>
+         <textarea rows="10" cols="40">
+
+         </textarea>
+
+        <br>
+        <input type="reset" value="clear">
+        <input type="submit" value="Register">
+    </form>
+   <script>
+    function test()
+        {
+            alert('Welcome to Javascript');
+        }
+   </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

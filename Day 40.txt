@@ -1,0 +1,78 @@
+***************
+ HTML
+***************
+Day: 40, Date: 16/2/2024
+
+
+Agenda:
+i)What is HTML?
+ii)HTML building blocks
+iii)Tag, attributes, elements of HTML
+iv)HTML paragraph, heading  text formating, anchor, image, table, list etc
+
+Recap:
+
+HTML:HyperText Markup Language
+
+HyperText: A text within a text. A text has link within it.
+Markup: A markup language is a computer language that is used to apply layout and formatting conventions to a text document.
+Web Page : A webpage is document that is commonly written in HTML and translated by a web browser.
+
+ 
+i)HTML is used to create web pages for web application.
+ii)It is one of the most widely used markup language on the web.
+iii)We can create static webpage by HTML.
+
+
+Application - i)Backend ii)Frontend(UI/UX)
+
+Building blocks:
+An HTML document consists of three main building blocks. These are:
+
+i)Tags: An HTML tag surrounds the content and apply meaning to it. It is written between < and > brackets.
+
+  <p> This is a paragraph. </p>
+  <br/>
+
+ii)Attributes : An attribute in HTML provides extra information about the element, and it is applied within the start tag.
+An HTML attribut contains two fields: name & value.
+
+  <p style="color:blue;background:yellow;"> This is a paragraph.</p>
+
+iii)Elements: An HTML element is an individual component of the HTML file. In an HTML document everything is written within tags 
+are termed as elements. 
+  
+ <p name="pata1"> This is a paragraph. </p>
+
+List:
+i)Ordered LISt - OL
+ii)Unordered List- UL
+iii)Description List - DL
+
+Text formatting:
+
+i)<b> <strong>
+ii)<u>
+iii)<i> <em>
+iv)<mark>
+v)<strike>
+vi)<sup><sub>
+vii)<small>
+viii)<big>
+
+
+Q:->What HTML? What is the use of HTMl?
+Q:->What are the main building blocks of HTML?
+Q:->What is use of anchor tag in a webpage?
+Q:->How to embed an image in the html page?
+Q:->What is the use of table tag? What is the use of cellspacing and cellpadding?
+Q:->How to add list in a web page? What are the different types of list available in HTML? 
+
+70%
+
+
+
+
+
+
+ 
