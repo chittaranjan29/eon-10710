@@ -1,0 +1,46 @@
+******************
+Javascript
+******************
+Day 43, Date: 22/1/24
+
+
+Agenda:
+i)Javascript events
+ii)break and continue
+iii)oop features
+iv)Error handling in Javascript
+v)this keyword
+vi)Arrow function
+vii)TypeOf operator
+
+Events:Event are nothing but activities performed by user or by the browser on the web page.
+The change of the state in an object is called event. When the state of HTML element changes javascript
+reacts over the changes is called Event handling.
+
+onClick - user activity
+onLoad  - browser activity
+
+this keyword:
+In Javascript, this keyword refrs to an object.
+
+i)In an object method, this referes to the object.
+ii)Alone, this refers to the global object.
+iii)In function, this referes to the global object.
+iv)In an event, this referes to the element that received the event.
+
+Interview Questions:
+i)What are HTML events? 
+ii)What is an event handler?
+iii)How to handle javascript error or exceptions?
+iv)What is this keyword? What are the different uses of this keyword?
+v)What is an arrow function?
+vi)What is the purpose of typeOf function/operator?
+
+Q:-> Write a javascript function to change the opacity of an image when onmouseover enent is triggered.
+
+
+ 
+
+
+
+

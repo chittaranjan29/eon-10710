@@ -1,0 +1,79 @@
+*******************
+HTML
+*******************
+Day: 42,  Date: 20/2/24
+
+
+Agenda:
+i)HTML iframe tag
+ii)Layout related tags(nav, article, aside, header, footer etc)
+iii)HTML Comments
+iv)HTML Entities
+v)Types of HTML elements(block, inline), Differences between block and inline elements 
+vi)audio/video
+
+
+embed: 
+iframe tag:
+
+block:A block element always display in new line and it occupy the entire width of the page.
+inline: An inline element displays in the same line with other element and will occupy only the 
+required width that is needed.
+
+
+Interview Questions:
+i)What are block level elements?Give Example.
+ii)What are inline level elements?Give Example.
+iii)Explain the differences between block and inline elements.
+iv)How to embed audio and video in an HTML page?
+v)What are the use of character entities?
+vi)What are the newly added HTML5 tags availale for layout?
+vii)What is the use of iframe tag?
+viii)How to add multiline comments in HTML?
+
+Comments: It increases the readability of the html code. It helps other team memers to understand 
+the purpose and logic of the code.
+
+i)Single line 
+ii)Multiline comments
+iii)Documentation comments
+
+HTML Entities:HTML character entities are the replacement of the reserved characters in HTML.
+We can replace any character that are not present on the keyboard using character entities.
+
+copy right symbol - &copy;
+no breaking space - &nbsp;
+registered trademark - &reg;
+pound symbol - &pound;
+
+audio/video: These two elemets are used to include audio or video file in the body of the HTML
+document.
+supported video formats: mp4, ogg webM
+supported audio formats: mp3, wav, ogg
+
+Q:-> create a small image gallery using HTML tags.
+
+Bootsrap
+CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

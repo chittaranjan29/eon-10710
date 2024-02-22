@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="event.js">
+
+    </script>
+</head>
+<body onload="alert('Page is loading...')">
+
+    <input type="text" id="a">
+    <button type="submit" value="click here" onclick="test()">click here</button>
+
+    <br>
+
+    <input type="text" id="b" onkeyup="getData(event)">
+    <p id="para"></p>
+
+    <input type="text" id="c" onchange="captureData(event)">
+    <p id="para1"></p>
+
+    <h2 onmouseover="imageDisplay()" onmouseout="imageDisappear()">Bring the mouse over the text</h2>
+    <div id="image"></div>
+</body>
+</html>
