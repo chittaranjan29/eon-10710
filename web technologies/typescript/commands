@@ -1,0 +1,4 @@
+npm install -g typescript
+tsc -v
+tsc --init              #creates tsconfig.json
+tsc -w                  #run compiler in watch mode.//compile on save

@@ -1,0 +1,48 @@
+***********************
+TypeScript
+***********************
+Day: 44, Date: 27/2/24
+
+
+Agenda:
+i)Variable declaration using var, let and const keyword.
+ii)OOPs concept in Typescript(class, object, constructor, getters, setters, method, interface etc)
+iii)Function and parameter types(optional parameter, default parameter, rest parameter)
+iv)Generics in Typescript
+
+
+var:(By default function scoped)
+The variable declared with var keyword inside a function is only available within the function.
+If we declare outside of the function, then the variable is available everywhere i.e it has global scope.
+
+let: The variable declared with let keyword is having block-scope by default.They are scoped to block in which
+they are declared i.e. inside the if/try/catch/while/for/any code block.
+
+
+This means that we can only use it in the code block where we declare them. Outside the code block they are 
+invisible.
+If they are outside the code block but inside a function then their scope is function scope.
+If they are outside the code block or function, then they have global scope.   
+
+
+i)how to declare variable in typescript?
+ii)Differences between var and let keyword?
+iii)How to declare constant in typescript?
+iv)What anonymous function? how to declare anonymous function in typescript?
+v)Explain optional, rest and default parameters in function.
+vi)difference between block, function and global scope.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

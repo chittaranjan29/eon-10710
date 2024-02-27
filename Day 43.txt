@@ -1,84 +1,30 @@
-******************
-Javascript
-******************
-Day:43, Date: 21/2/24
+**************************
+Typescript
+**************************
+Day: 43, Date: 26/2/24
 
 Agenda:
-i)What is Javascript?
-ii)Variable
-iii)Data types
-iv)Operators
-v)Flow control statements
-vi)loops
+i)Introduction of Typescript
+ii)Variables, Data types, identifiers
+iii)Advanced Data types
+iv)Typescript Operators
+v)Flow Control Statements
+vi)Functions
+vii)OOP features
+
+Introduction:It is open source, object oriented programming developed and mentained by Microsoft.
+Typescript is nothing but a superset of Javascript. It is build on top of the javascript and introduces syntax
+enhancements.
 
 
-Javascript:
-Javascript is a light-weight object oriented programming language which is used by several websites
-for scripting.It is an interpreted programming language that makes the website interactive.
+Typescript(.ts)   -> compile -> Javascript(.js)  
 
-It was introduced in 1995 in the Netscape Nevigator browser.
+TSC - Typescript Compiler
 
-Internet Explorer - vbscript
-
-Features:
-i)All popular web browser supports javascript.
-ii)It is a structured programming language that follows C programming language.
-iii)Javascript is object oriented, interpreted, weakly typed language. 
-iv)It supports most of the OS including Windows, Linuc and MacOS.
-v)It provides good control over the web browser.
-
-Java - applet app
-
-How to run javascript?
-i)Emdeb in HTML and run in the browser
-ii)Node server (node -v)
-
-console messages:
-i)Information - console.log();
-ii)Warning    - console.warn();
-iii)Error     - console.error() ;
-
-Variables:
-Variables are names given to the storage location to store data.
-
-i)Automatically
-ii)using var keyword
-iii)using let keyword
-iv)using const keyword
-
-
-popup boxes:
-i)alert() - information
-ii)prompt() - take input
-iii)confirm() - take confirmation 
-
-loops:
-i)do-while
-ii)while
-iii)for 
-	a)standard 
-	b)for in 
-	c)for of
-
-
-Interview Questions:
-i)What is Javascript?
-ii)How to declare variables in javascript?
-iii)Difference between let and var keyword.
-iv)What are different types of for loop available in Javascript?
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
+Data Types:
+Operators: 
+i)Arithmetic operators: +, -, *,/, **, %, ++, --
+ii)Logical Operators: &&, ||, !
+iii)Relational operators: >,>=,<,<=, ==(loose equility), ===(strict equility), != 
+iv)Bitwise Operators: &, |, ^, ~, >>, <<
+v)Type operators: in, delete, typeOf, instanceOf
