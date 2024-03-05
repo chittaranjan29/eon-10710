@@ -1,0 +1,85 @@
+****************
+Boostrap 5
+****************
+Day: 47, Date: 4/3/24
+
+
+Agenda:
+
+i)Introduction of Bootstrap
+ii)How to use
+iii)Containers
+iv)Grid System
+v)Buttons, colors, tables, alert, button group
+vi)Jumbotron
+vii)Paginations, cards, dropdowns, 
+viii)Forms 
+
+Bootstrap:
+ i)It is a library created with html, css and javascript used for faster and easier web development.
+ ii)Bootstrap gives you the ability to create responsive design.
+ iii)Boostrap includes inbuilt css classes for designing forms, buttons, tables, navigation, slider etc.
+
+Resiponsive Web design:
+It is a web designing process by which webpages adjust themselves to devices with different height and width to 
+look good and proper.
+
+Reason of using Bootstrap:
+  i)Easy to use
+ ii)responsive design
+ iii)Mobile-first approach
+ iv)Browser compatibility
+
+How to use:
+ i)Online CDN links 
+ ii)Local System links 
+
+Container: To wrap site contents a container is required. Containers are defined as div element with class name .container
+or .container-fluid.
+
+ i).container - fixed width container
+ ii).container-fluid - full width container
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+width=device-width - It indicates that the web page will follow the device width.
+initial-scale=1.0 - It sets the initial zoom level when the page is loaded
+
+
+Responsive container:
+We can use container classes to determine when the container should be responsive.
+
+
+container classes - container-sm, container-md, container-lg, container-xl 
+
+Grid System:
+Bootstrap grid system is built with flexbox and allows upto 12 columns across the page.
+
+Bootstrap grid system has six classess 
+ i).col- (extra small devices - <576px)
+ii).col-sm- (small devices - >=576px)
+iii).col-md-(Medium devices - >=768px)
+iv).col-lg- (large devices - >=992px)
+v).col-xl- (xlarge devices - >=1200px)
+vi).col-xxl-(xxlarge devices) - >=1400)
+
+color classes:
+i) .text-muted ii).text-primary iii).text-success iv).text-danger v).text-info vi) .text-warning vii) .text-secondary
+viii).text-white ix).text-dark x).text-light
+
+table classes:
+i)table i)table table-striped iii)table table-dark iv)table table-hover v)table table-primary vi)table table-light
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 

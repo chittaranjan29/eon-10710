@@ -1,0 +1,27 @@
+****************
+Typescript
+****************
+Day:45, Date:28/2/24
+
+Agenda:
+i)Optional property
+ii)Readonly Property
+iii)Access Modifiers(Public, Private and Protected)
+iv)Inheritance
+v)Generics in Javascript
+vi)Ternery Operator
+
+Optional property:
+Optional property are those properties that are not mandatory.
+
+Interface: Interface specifies properties and method of a given object. Typescript interfaces are abstract type and they 
+needs to be implemened by a class, by an object or by a function. 
+
+Access Modifiers:
+
+Public: Public access modifer allows the class properties and methods to be accessed freely from anywhere in the code.
+Private: The private access modifers restricts the access of the properties and method within the class only.
+Protected: The protected access modifers properties and methods are accessible within and any classes that inherits the class. 
+
+Generics: Generics allows us to write a function, method, class, interface in such a way that we can pass a range of data types.
+It helps us in reusing the code.

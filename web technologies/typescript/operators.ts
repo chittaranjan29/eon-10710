@@ -17,3 +17,14 @@ class Person
 
 let person=new Person();
 console.log(person instanceof Person);
+
+const isValid=true;
+
+const msg=isValid?'valid':'Invalid';
+console.log(msg);
+
+
+var a=10,b=20,c=30;
+
+var greaterNum=(a>b)?((a>c)?a:c):((b>c)?b:c);
+console.log(greaterNum);
