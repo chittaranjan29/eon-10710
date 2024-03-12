@@ -1,0 +1,92 @@
+****************
+Angular
+****************
+Day:50, Date: 7/3/2024
+
+
+Agenda:
+i)Project structure of Angular.
+ii)Bootstraping process Angular.
+iii)What is component? Render component on the page.
+iv)Data Binding.
+v)Types of Data binding.(Interpolation, property binding, Event binding, ngModel)
+vi)What is dirctive? Types of directives and use of them.
+
+Introduction:
+i)It is a framework written in typescript used for web application UI/UX development.
+ii)Single Page Application can be developed in Angular.
+iii)It provides data binding feature.(Onc wat and two way data binding)
+
+What is SPA?
+SPA or Single Page Application is a web app or web site which provides users a very fluid, reactive and fast user experience.
+When a certain part of the webpage is clicked a dynamically rewrites the current page rather than reloading the entire page.
+
+Angular vs Angular JS?
+
+Angular JS - version v1 - mVC based framework written in Javasctipt
+Angular - version 2 or later - written in typescrtipt 
+
+
+
+npm, node and typescript
+
+npm -v
+node -v
+tsc -v
+
+npm install -g @angular/cli
+npm install -g @angular/cli 10.00.1
+ng v
+ng new first-angular-app
+cd first-angular-app
+code .
+ng serve 
+
+default 4200
+
+Project structure:
+
+i)dist : The dist folder that has all the files and folders which can be hosted in the server.
+It has the compiled code of our angular app.
+
+
+src: It contains the source code of the app. 
+
+node_ modules: This folder contains third party libraries and files . All these are bundled into a single project.
+This folder gets created when npm install command is executed.
+
+
+app: It contains modules and components of our app. It basically has --
+ i)app.module.ts(root module) ii)app.component.html iii)app.component.css iv)app.component.spec.ts v)app.component.ts(root component)
+
+assets: It contains resources like images, icons etc.
+
+environment: It contains environments configuration constants that help building the Angular app.
+It has environment.ts and environments.prod.ts. Thease configurations are used in angular.json file.
+
+index.html: Basic HTML file. Single webpage that loads on the browser.
+
+favicon.ico - This logo appears on the browser tab.
+
+main.ts: The starting point of our app. It starts the AppModule from app.module.ts.
+
+pollyfills.js: This file is used to compile our typescript to specific javascript methods. Provides compatability support for
+Browser version.
+
+style.css: Global css  file.
+
+angular.json: This file defines the structure of the application. It includes settings associated with out application.
+We can also specify the environment(dev, pre-prod, test, prod etc) on this file. 
+
+karma.conf.js:This is the configuartion file for the Karma test runner. It is used for unit testing.
+
+package.json: This is the npm configuration file. All the dependencies are mentioned in this file. We can modify tyhe version as per our need.
+
+package-lock.json: Whenever we cange anything in node_modules or package.json. this file will be generated. It is associated with npm,.     
+
+
+ 
+
+
+
+

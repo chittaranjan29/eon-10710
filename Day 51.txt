@@ -1,0 +1,61 @@
+***********
+Angular
+***********
+Day: 50,   Date: 8/3/24
+
+Mini Project:(Console based Application) - Last Date : 18th March
+i)Task Manager Application
+ii)Contact Book Application
+iii)Library Catelog Application
+iv)Bank Account Management Application
+v)Inventory Control Application
+vi)Hotel Room Booking Application
+
+
+Webx download - https://www.webex.com/downloads.html
+Webx registration - https://signup.webex.com/
+
+Agenda:
+i)Data Binding.
+ii)Types of Data Binding.(Single way or Two way)
+iii)Interpolation.
+iv)Event Binding.
+v)Style Binding.
+vi)Property Binding.
+vii)Two way data binding with ngModel.
+
+
+Data Binding:
+It is process by which your component stays in sync with the view. Whenever the user updates the data 
+in the view, Angular updates the component and if the component gets new data, Angular updates the view.  
+
+
+Single /One way data binding:
+In one way data binding the data flows in one direction.
+Either from component to view or from view to the the component.
+
+i)Interpolation: Interpolation allows us to include expression as part of the string literal, which we use in
+the Html. Angular evaluates the expression into string and replace the original string and updates the view.
+  
+ii)Property Binding: It is one way data binding from component to view. It lets you set a property of an element in the view to a
+property in the component.
+
+  [binding-target]="binding-source"
+
+iii)Event Binding: Event binding allows us to to bind events such as keystroke, click, hover, touche etc to a method in the component.
+
+  (target-event)="TemplateStatement"
+
+iv)Style Binding
+v)class Binding
+
+Two way data binding:(Event Binding + Property Binding)
+In two way data binding the data can flow in both the directions.
+From component to view and from view to the the component.
+
+i)ngModel
+
+
+
+
+

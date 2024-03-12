@@ -1,0 +1,89 @@
+*************
+Angular
+*************
+Day:52, Date: 11/3/24
+
+
+Agenda:
+i)Types of One way data binding(Style, class, event)
+ii)Two way data binding using ngModule
+iii)Directives and its types
+iv)Component communication
+
+
+ component(.ts) - view(.html)
+
+ (data)   -  sync  -  (data)
+
+i)Single way data binding(interpolation, property binding, event binding, style binding, class binding)
+ii)Two way data binding(ngModel in form)
+
+
+  <p>this is a paragraph</p>
+
+Event Payload: DOM event carries the event payload i.e. the information about the event. We can acces the event payload
+using $event as an argument to the handler function.
+
+click, dblclick, focus, blur -> 
+
+
+
+Template reference variable:
+Template reference variable in Angular is used to access all the properties of any element inside the DOM.
+It is denoted using # symbol.
+
+
+class binding: 
+The className is a property of HTML element. Hence we can make use of property binding to assign the class name 
+to any HTML element. 
+
+
+style binding:
+
+Directives:Angular directives helps us to manipulate the DOM. You can change a DOM element's appearance, behavior, or layout
+using the directives.
+
+Types:
+ i)Structural Directives(ngFor, ngIF, ngSwitch, ngTemplate)
+ ii)Component Directives (used to create component @Component) 
+ iii)Attribute Directives(ngModel, ngClass, ngStyle)
+
+
+Assignment:
+
+Create two form fields to accept integers and bind an event to a button to display the sum of the integers provided
+through the input boxes.
+
+
+[] - n1 
+[] - n2
+
+[button] - n1+n2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

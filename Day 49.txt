@@ -1,0 +1,28 @@
+*********************
+Bootstrap 5
+*********************
+Day: 49  Date: 6/3/24
+
+
+Agenda:
+i)Collapse 
+ii)popover/tooltip 
+iii)Carousel
+iv)ListGroups
+v)Modal
+vi)Angular Introduction(npm, node, typescript)
+vii)Features of Angular
+viii)Folder structure
+ix)Create First Angular app
+
+
+
+Collapsible/Accordion:
+Collipsible are useful when you want to hide or display large amount of content.
+
+Popover/Tooltip: 
+The popover is a small popup box that appears when the user clicks an element.
+The tooltip is a small popup box that appears when the user hover the mouse over an element.
+
+Carousel: A carousel is a slideshow to cycling through elements.
+  

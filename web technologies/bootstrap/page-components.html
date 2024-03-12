@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <div class="container">
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#content">click here</button>
+
+        <div id="content" class="collapse">
+            This is the actual content.
+        </div>
+
+
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseone">HTML</a>
+                </div>
+               
+                    <div id="collapseone" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body"> 
+                             HyperText Markup Language
+                        </div>
+                     </div>
+            </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapsetwo">HTTP</a>
+                    </div>
+                   
+                        <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body"> 
+                                HyperText Transfer Protocol
+                            </div>
+                         </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapsethree">TCP</a>
+                        </div>
+                       
+                            <div id="collapsethree" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body"> 
+                                    Transmission Control Protocol
+                                </div>
+                             </div>
+                        </div>
+            </div>
+        </div>
+</body>
+</html>

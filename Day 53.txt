@@ -1,0 +1,60 @@
+********************
+Angular
+********************
+Day:53, Date:12/3/24
+
+
+Agenda:
+i)Two way data binding using ngModel in Angular form.
+ii)Directives.(ngFor, ngIf, ngTemplate, ngSwitch, ngClass, ngStyle)
+iii)Component communication.(from parent to child, child to parent and betwee independent components)
+iv)Component life cycle hooks.
+
+Interpolation
+property binding
+event binding
+style binding
+class binding
+
+
+Two-way Databinding:
+Angular provides a way to achieve two way data binding using [()]. Two way data binding is the combination of
+property binding and event binding.
+
+[] - Propery Binding
+() - Event Binding
+
+[()] - Property binding + Event Binding = Two way data binding(ngModel directive) 
+
+ngModel :
+The Angular uses the ngModel directive to achieve two way data binding on HTML Form elements, It binds to a form 
+elements link input, select, textarea etc.
+
+Internally it uses the ngmodel in property, binding to bind to the value property and ngModelChanges  which bind 
+to the input event.
+
+
+I)Parent component to child component
+  In child component 
+     i)Import @Input module from @angular/core library
+     ii)Mark those properties, in which you need data from the parent as input property using @input decorator.
+  In parent component
+     i)Bind the child component property in the parent component when instantiating the child. 	
+
+
+MLAT - Mid Level Assessment (50%)
+
+Interview Questions:
+i)What is data-binding feature in Angular?
+ii)Differences between one-way and two-way data binding.
+iii)How do we achieve one-way data binding in Angular?
+iv)What is the use of ngModel diective?
+v)What are directive? Types of directives?
+vi)How ngStyle is different from ngClass?
+vii)How to pass data from a parent component to chind componet?
+@Input
+
+
+
+
+
