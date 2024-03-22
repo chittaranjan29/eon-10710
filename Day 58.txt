@@ -1,0 +1,29 @@
+*************
+Angular
+*************
+Day: 58, Date: 20/3/24
+
+
+Agenda:
+i)HTTPClient Module
+ii)HTTP methods and working
+iii)Request and Response through HTTP protocol
+iv)Make REST API call using Angular(GET, POST, PATCH, PUT, DELETE)
+
+Client-Server Architechture:
+HTTP Request
+HTTP Response(SUCCESS/ERROR)
+
+SUCCESS - 200, 201, 202 - data(JSON/XML/HTML etc)
+REDIRECTION - 301, 303   
+ERROR - 404, 403, 405 (Client side error)
+      - 500, 501, 503 (Server side error)
+
+
+TEST api - postman
+
+Observable
+Observer
+
+Publisher - Subscriber
+Observable - Observer

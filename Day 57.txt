@@ -1,0 +1,49 @@
+***************
+Angular
+***************
+Day: 57, Date: 19/3/24
+
+
+Agenda:
+i)Angular Routing
+ii)Service class
+
+ng g s product
+iii)HTTP methods(GET, POST, PUT, PATCH, DELETE)
+
+
+Angular Routing: Routing allows you to move from one part of the application to another part of the application.
+In Angular, Routing is handled by Angular Routing module.
+
+
+Angular Router: The router is a separate module in Angular. It is in its own library package,@angular/router.
+The Angular router provides the necessary service providers and directives for navigation through application views. 
+
+Using router we can-
+ i)Navigate to a specific view by typing a URL in the address bar.
+ ii)Pass optional parameters to the view.(Query parameters)
+ iii)Bind the clickable elements to the view and load the view when the user performs application tasks.
+ iv)Handles back and forward buttons in the browser.
+ v)Allows to load the view dynamically.
+ vi)Protect routes from unauthorised user using route guard.
+
+Components:
+ i)Router: It enables navigation from one component to another as user performs action on the application.(clicking button,clicking on back or forward button etc )
+ ii)Route: Route tells Angular Router which component to load when aparticular url is clicked.
+ iii)Routes: Routes is an array of Route.
+ iv)RouterOutlet: It is a placeholder used as a tag <router-outlet> tells where the router should display the view.
+ v)RouterLink: The routerlink is a directive that binds the HTML element to Route.
+ vi)RouterLinkActive: It is a directive that adds or removes classes form an HTML element, which boundes to a router link ,will result in
+navigation to the routerLink. 
+ vii)ActivatedRoute: The activatedRoute is an object that represents the currently activated route associated with the loaded 
+component.
+ viii)RouterState: The current state of the router includes a tree of the currently activated routes together with convinience
+method for traversing a route tree.  
+ ix)RouteLink Parameters array :It represents the arguments or parameters to the route.
+
+
+Parameters: i)Query Parameter ii)URI Parameter
+
+
+   locahost:4200/employee?name=raman&id=123
+   localhost:4200/employee/123

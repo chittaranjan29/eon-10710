@@ -1,0 +1,52 @@
+**************
+Angular
+**************
+Day: 60, Date: 22/3/24
+
+
+Agenda:
+i)Child route
+ii)Route guard
+iii)layout implementation using Angular
+
+
+Product - all products
+ProductDetails/:id - Single Product
+
+
+dashboard
+UI - header, footer, menu bar, main-content, side-bar etc.
+
+
+httpModule
+Service - Injecdtable service(class)
+ng g s user
+
+Parameters - URI parameter        /detail/12
+             Query parameter      /detail?id=12 
+
+abc.com/test
+
+404 error page - white color page
+		 custom error page
+
+sessionStorage and localStorage
+
+
+sessionStorage.setItem('loginStatus','false');
+localStorage.removeItem('email');
+
+
+route guard: It is a process of prventing routes from unauthorized access.
+
+canActivate
+canActivateChild
+canDeactivate 
+
+
+ng g g authtication
+
+PUT, PATCH, GET, POST, DELETE
+
+
+

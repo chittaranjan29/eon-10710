@@ -1,0 +1,26 @@
+**************
+Angular
+**************
+Day:58, Date: 21/3/24
+
+
+
+Agenda:
+i)POST, PUT, PATCH and DELETE Rest methods.
+ii)Consume all rest endpoints in Angular.
+iii)Basic layout of UI in Angular.
+
+
+
+GET, POST, PATCH/PUT, DELETE
+
+
+HTTPClientMOdule 
+
+
+
+ng g s user
+
+
+
+

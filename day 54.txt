@@ -1,0 +1,70 @@
+*****************
+Angular
+*****************
+Day: 54, Date: 13/2/24
+
+
+Agenda:
+i)Pass data from child to parent component
+ii)Angular pipes
+iii)Component life cycle hooks methods
+iv)Angular Forms
+
+
+Pass data from child to parent component
+  i) Listen to child event 
+     The child component exposes an EventEmitter property. This property adorned with the @Output() decorator.
+     When the child component needs to communicate with the parent component it raises the event. The parent
+     component listens to the event and responds to it.
+	
+  ii)Using local variable to access the child
+  iii)Using @ViewChild to get the reference to the child component
+
+Event Emitter:To raise an event, the component must declare an event emitter property. The event can be emitted
+by calling the emit() method. 
+
+
+Angular pipes:
+Angular pipes are used to transform the data to display in the template. We can change the appearance of the
+data before presenting it to the user. 
+
+Example: currency, date, number, percent, decimal, slice etc.  
+
+Syntax: 
+
+  Expression | pipeOperator[:arguments]
+
+  todate | date : 'short' 
+Component life cycle hooks:
+The Angular life cycle hooks are nothing but callback functions, which Angular invokes when a specific event
+occurs during the component life cycle.
+
+For example:
+
+ i)NgOnInit when Angular initializes the component for the first time.
+ ii)When a component's input property changes, Angular invokes NgOnChanges.
+ iii) If the component is destroyed, Angular invokes ngOnDestroy.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

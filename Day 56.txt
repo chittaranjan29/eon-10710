@@ -1,0 +1,59 @@
+*******************
+Angular
+*******************
+Day:56, Date: 18/3/24
+
+
+Agenda:
+i)What is Angular form?
+ii)Types of Angular forms
+iii)Basic building block of form
+iv)Template driven form
+v)Reactive form
+vi)Implement validation in Angular form
+
+
+
+Angular: component, component communication, driectives, life cycle hooks
+
+
+Form:Forms are used to capture data from the user.
+
+Basic building block of form:
+The Angular form consists of three main building blocks, irrespective of whether you are buiding template driven form or 
+reactive form.
+
+i)FormControl:It represents a single input field in Angular form.
+   
+<input type="text" name="firstName">
+
+let firstName=new FormControl();
+
+firstName.value
+
+validation purpose
+i)errors ii)dirty iii)touched iv)valid
+
+
+ii)FormGroup:
+FormGroup is a collection of FormControlls. Each formControl is a propery in the form group. 
+
+iii)FormArray
+
+
+
+i)Template driven form 
+ Simple and easy to implement form. It is suitable for small and limited number of fileds with less complexities.
+ In this approach the logic of the form is written in the template itself.
+ 
+  a)Import formsModule for angular forms module in app.module.ts.
+  b)create a component
+  c)Write the form in template
+  d)capture the form data in your component file
+
+
+ii)Reactive form
+
+
+
+Routing, Service, HTTP Rest api calls
