@@ -1,0 +1,41 @@
+*****************
+Hibernate
+*****************
+Day: 54, Date: 1/4/2024
+
+Agenda:
+i)Introduction of Hibernate
+ii)What, Why and When of Hibernate.
+iii)JPA and its implemtations
+iv)Architechture and its working
+v)Create application to use Hibernate
+
+JDBC API:
+
+static sql queries
+dynamically sql queries
+Ecommerce
+
+JPA: Java Persistence API/Jakarta Persistance API - Specification/Documentations
+JPA Implementation / Persistence Provider : Hibernate, EclipseLink, OpenJPA, MyBatis, Ibatis
+
+Advantages:
+i)Boilerplate code will be reduced.
+ii)Database specific queries can be generated.
+iii)Writing database interaction code will be easy.
+
+
+i)Persistent class
+ii)Configuration file
+iii)Mapping file
+
+
+
+
+ 
+
+
+
+
+
+

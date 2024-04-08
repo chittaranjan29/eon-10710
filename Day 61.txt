@@ -1,0 +1,29 @@
+*******************
+Hibernate
+*******************
+Day: 59, Date: 4/4/24
+
+
+Agenda:
+i)Hibernate bi-directional mapping
+ii)Hibernate Object states(transient, persistent, detached, removed )
+iii)Different types primary key generation strategies(AUTO, IDENTITY, TABLE, SEQUENCE)
+ AUTO: It lets the persistence provider choose the generation strategy.
+ IDENTITY: An auto-increment field is created in an optimized way. 
+ TABLE: Internally it uses SEQUENCE in a pessimistic locking way which slows down your application. 
+ SEQUENCE: Hibernate uses database sequence feature to generate the primary key. 
+iv)Inheritance mapping
+   a)MappedSuperclass Inheritance
+   b)Single table Inheritance
+   c)Joined table Inheritance
+   d)Table per class Inheritance
+
+
+
+object1 -> <- object2
+
+Manytomany - Sports - Cricket
+
+
+
+

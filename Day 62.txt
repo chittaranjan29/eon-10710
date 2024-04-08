@@ -1,0 +1,54 @@
+******************
+Hibernate
+******************
+Day:60, Date: 5/2/24
+
+
+Agenda:
+i)Hibernate Inheritance Mapping
+  a)MappedSuperclass
+  b)Single Table
+  c)Joined Table
+  d)Table per class
+
+ii)HQL (Hibernate Query Language)
+iii)HCQL(Hibernate Criteria Query Language)
+
+
+Mapping: 
+ i)Unidirectional
+ ii)Bidirectional
+
+
+a)MappedSuperclass:Inheritance is implemented in the domain model only without reflecting it in the database schema. 
+In this strategy, the parent classes can not be entities.
+
+b)Single Table: The domain model class hierarchy is materilized into a single table that contains entities belonging to
+different class types.
+
+c)Joined Table: The base class and all the sub classes have their own database tables and fetching a subclass entity requirs to join the 
+parent table.
+
+d)Table per class: Each subclass has its own table containing both the subclass and the base class properties.
+
+
+
+
+Account  - CreditAccount, DebitAccount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
